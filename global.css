@@ -1,0 +1,17 @@
+.century-gothic-title {
+    font-family: 'Century Gothic', Arial, sans-serif;
+    font-weight: normal;             /* Regular */
+    font-size: 50pt;                 /* 50 points */
+    letter-spacing: 100px;           /* This is VERY wide! Adjust if needed */
+    color: #433a33;                  /* Pantone 439 C approximate HEX */
+  }
+
+  
+  .quicksand-wide {
+    font-family: 'Quicksand', Arial, sans-serif;
+    font-weight: normal;             /* Regular */
+    font-size: 20pt;                 /* 20 points */
+    letter-spacing: 490px;           /* Very wide, adjust as needed */
+    color: #433a33;                  /* Pantone 439 C (approx) */
+  }
+  

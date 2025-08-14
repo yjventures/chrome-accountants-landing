@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "role": "Small Business Owner",
+    "company": "Chen's Consulting",
+    "persona": "business",
+    "content": "Chrome Accountants transformed how I manage my business finances. Their Chrome Financial Health System™ gave me clarity I never had before. The Annual Strategy Forecast they provide is like having a roadmap for my financial future.",
+    "rating": 5,
+    "image": "/images/testimonial-sarah.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Michael Rodriguez",
+    "role": "Software Engineer",
+    "company": "Individual Tax Client",
+    "persona": "individual",
+    "content": "After years of doing my own taxes and worrying I was missing deductions, Chrome Accountants gave me peace of mind. They explain everything in plain English and guaranteed my maximum refund.",
+    "rating": 5,
+    "image": "/images/testimonial-michael.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emma Thompson",
+    "role": "Startup Founder",
+    "company": "GreenTech Solutions",
+    "persona": "business",
+    "content": "Starting my business felt overwhelming until I found Chrome Accountants. They guided me through every step, from choosing the right structure to setting up proper financial systems. I couldn't have done it without them.",
+    "rating": 5,
+    "image": "/images/testimonial-emma.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Park",
+    "role": "Restaurant Owner",
+    "company": "Park's Kitchen",
+    "persona": "business",
+    "content": "The team at Chrome Accountants handles all our bookkeeping and payroll. Their proactive approach and clear reporting help me make better business decisions. They're true financial champions.",
+    "rating": 5,
+    "image": "/images/testimonial-david.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lisa Williams",
+    "role": "Marketing Manager",
+    "company": "Individual Tax Client",
+    "persona": "individual",
+    "content": "Chrome Accountants made tax season stress-free. They handled everything professionally and kept me informed throughout the process. The peace of mind is worth every penny.",
+    "rating": 5,
+    "image": "/images/testimonial-lisa.jpg"
+  },
+  {
+    "id": 6,
+    "name": "James Kumar",
+    "role": "Tech Startup Founder",
+    "company": "InnovateTech",
+    "persona": "business",
+    "content": "From company registration to ongoing compliance, Chrome Accountants has been with us every step. Their expertise saved us from costly mistakes and set us up for success from day one.",
+    "rating": 5,
+    "image": "/images/testimonial-james.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Makoto Saegusa",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I couldn't be happier with my accountant! Tarek is very professional and explains everything well for me to understand. Highly recommend for anyone looking for a trustworthy accountant.",
+    "rating": 5,
+    "image": "/images/testimonial-makoto.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Nancy Medina",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Tarek is amazing at what he does. He’s always so patient, gives great advice, very organised, takes his time and goes above and beyond. Would definitely recommend!",
+    "rating": 5,
+    "image": "/images/testimonial-nancy.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Benjamin Rose",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "For the first time i worked with Tarek for tax return, he's professional accountant, kind and understandable person, 👍",
+    "rating": 5,
+    "image": "/images/testimonial-benjamin.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Vicki Nguyen",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I was referred to a friend of mine and my experience with Tarek was amazing. He explained everything so clearly, and I was able to understand what he was doing. Tarek was very efficient in how he worked, and someone who is tech savvy, appreciated that everything was digital when it came to signatures. He was very accommodating and very friendly. Highly recommend.",
+    "rating": 5,
+    "image": "/images/testimonial-vicki.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Robert Clarke",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I recently did my tax return through Tarek at chrome accountants. I was very pleased with his fast, professional and incredible service. I would highly recommend Tarek and chrome accountants who helped me achieve a fantastic tax refund and gave me a great comprehensive overview of my tax return, making the entire process very easy. I will definitely be using chrome accountants again. :) very happy!!",
+    "rating": 5,
+    "image": "/images/testimonial-robert.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Deb Goodson",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "My first tax return with Tarek, the best accountant I have had the pleasure to work with. I was greeted with a warm and caring welcome. Tarek is very professional, knowledgeable and very helpful. His services cover all tax return requirements, even helped me set up a pay system to the ATO. Tarek called me back the next day to let me know everything was good. Thank you Tarek 🙏 I will be recommending you to all my family and friends. You are the best 👌",
+    "rating": 5,
+    "image": "/images/testimonial-deb.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Angie Gallino",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "I have been working with Tarek for a while now, and I can’t say enough good things about his service. Tarek is incredibly warm, educated, and extremely knowledgeable in his areas of expertise. Unlike some accountants I’ve been to before, Tarek truly understands the nuances of my unique income and business situation. I've returned to Tarek multiple times, and I’m always impressed with his service and the personal touch he adds. He goes out of his way to make time for meetings, even during his busy schedule, to address any issues or questions I have. Tarek’s dedication and genuine care for his clients make him stand out. I’m so happy with his service and highly recommend him to anyone in need of a knowledgeable and caring accountant. Thanks, Tarek, for all your help!",
+    "rating": 5,
+    "image": "/images/testimonial-angie.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Lyss Wickramasinghe",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "We visited Tarek for our first ever tax return performed by an accountant and he was awesome. Very knowledgeable and helped us work out all our deductions and advised us on how to set everything up for the future to ensure its easier each year. Highly recommend his services.",
+    "rating": 5,
+    "image": "/images/testimonial-lyss.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Franca Ballard",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "This is the 3rd year I have gone to Chrome Accountants to do my taxes and cannot be happier. The professionalism, the care and speed of getting my taxes done and exceptional. I would recommend Chrome many times over. I had recommended a friend and his wife last year, and they have returned again this year. They are so happy and pleased with the services as well. Thank you Tarek, see you next year !!",
+    "rating": 5,
+    "image": "/images/testimonial-franca.jpg"
+  },
+  {
+    "id": 16,
+    "name": "felix martin",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "I had a great experience with them, polite patient friendly professional service, trustworthy and fair price",
+    "rating": 5,
+    "image": "/images/testimonial-felix.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Adam C",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I called up Tarek and instantly he was friendly and approachable we made a time to come see him within 46 minutes. The first thing I noticed was his professional, genuine and caring approach. We discussed my needs and he explained and showed me everything which was phenomenal so transparent. He was able to support me so well and I left his office so grateful for accountants like him. If you are looking for a wonderful accountant in Merrylands Tarek is your man. Thank you Tarek see you soon.",
+    "rating": 5,
+    "image": "/images/testimonial-adam.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Omar Khattab",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I had a fantastic experience with Chrome Accountants. Tarek was very professional, trustworthy, and efficient. The process was smooth, and the services are affordable. Highly recommended!",
+    "rating": 5,
+    "image": "/images/testimonial-omar.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jasmine",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Chrome Accounting provides exceptional professional service. Tarek is thorough, extremely helpful & responsive to all inquiries. Highly recommend!",
+    "rating": 5,
+    "image": "/images/testimonial-jasmine.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Hussnain Haider Khan",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I’ve been visiting Chrome Accounts for a couple of years now and tarek is an amazing person as well as a brilliant accountant. Extremely satisfied with his work and knowledge. If you’re looking for a legitimate accountant to help you get the maximum refunds then no better place than Chrome Accountants.",
+    "rating": 5,
+    "image": "/images/testimonial-hussnain.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Sophie Wangari",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "First time filing taxes. Was assisted by Tarek, his approach was so professional and friendly. Will definitely be coming back Thank you Tarek",
+    "rating": 5,
+    "image": "/images/testimonial-sophie.jpg"
+  },
+  {
+    "id": 22,
+    "name": "edward Chen",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Chrome accountant was very professional, kind and helpful. It was a smooth and detailed process with him helping me doing my taxes. Highly would recommend Tarek",
+    "rating": 5,
+    "image": "/images/testimonial-edward.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Su A",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "The service provided was excellent and informative. They are an amazing group of professional accountants that made filing my tax convenient and easy. I have recommended their services to my own family and friends!!! I will definitely be contacting them again for other services.",
+    "rating": 5,
+    "image": "/images/testimonial-su.jpg"
+  },
+  {
+    "id": 24,
+    "name": "mohammed elyaseh",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Chrome accountants is one of the most highest quality accounting services i have ever recieved. Tarek holds himself with such poise and experience and is always looking to improve your taxation experience. Will be coming back!",
+    "rating": 5,
+    "image": "/images/testimonial-mohammed.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Pooja Rana",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I had a great experience with Tarek, he guided and explained whatever i had doubted. Thank you for the help.",
+    "rating": 5,
+    "image": "/images/testimonial-pooja.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Tamer Eltoukhy",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Great service, and very helpful and understanding person, excellent return results... Thank u so much and appreciate ur efforts. Will back again 100%",
+    "rating": 5,
+    "image": "/images/testimonial-tamer.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Saman Eftekhari",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "One of my friends recommended Tarik to me and I recommend him to everyone who is looking for a professional and knowledgeable accountant. Really happy that I could finally find an accountant that is on my side not on ato side.",
+    "rating": 5,
+    "image": "/images/testimonial-saman.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Nicholas Murray",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I've been using Chrome Accountants for the last 3 years and Tarek has been extremely knowledgeable and helpful. Would always recommend!",
+    "rating": 5,
+    "image": "/images/testimonial-nicholas.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Shawky Kanaan",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Very happy with the service and friendly manner which I’m dealt with this is my 3rd year with chrome accountants and I would recommend anyone who asks me",
+    "rating": 5,
+    "image": "/images/testimonial-shawky.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Mohammad Kachmar",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Its best company to deal with it. Special thanks to Mr. Tarek for his amazing assistance",
+    "rating": 5,
+    "image": "/images/testimonial-mohammad.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Kingsford Mensah",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "The agent was well organised. The application form was very simple to filled. Process too was so very quicker.",
+    "rating": 5,
+    "image": "/images/testimonial-kingsford.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Ari B",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek is a very helpful, professional, patient and knowledgable accountant, highly recommended!",
+    "rating": 5,
+    "image": "/images/testimonial-ari.jpg"
+  },
+  {
+    "id": 33,
+    "name": "In 2 Mobiles",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Great service, professional & honest. Don’t bother going to any other accountant.",
+    "rating": 5,
+    "image": "/images/testimonial-in.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Maral",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Best Tax accountant, got me the best return and explained everything step by step Highly recommend",
+    "rating": 5,
+    "image": "/images/testimonial-maral.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Nicholas Kouknas",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Smile, free chocolate and a huge return. Best accountant I have ever been too.",
+    "rating": 5,
+    "image": "/images/testimonial-nicholas.jpg"
+  },
+  {
+    "id": 36,
+    "name": "ALICE DIVANIAN",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Very professional and efficient. The best agent I’ve dealt with.",
+    "rating": 5,
+    "image": "/images/testimonial-alice.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Louis Chiha",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Tarek is a pleasure to work with.",
+    "rating": 5,
+    "image": "/images/testimonial-louis.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Ranim Estanboli",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "They are really helpful and easy to work with them. I really appreciate it.",
+    "rating": 5,
+    "image": "/images/testimonial-ranim.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Eliane Haba",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Amazing services and the best prices",
+    "rating": 5,
+    "image": "/images/testimonial-eliane.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Shah Mahmood Alami",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I’m happy with this tax agent",
+    "rating": 5,
+    "image": "/images/testimonial-shah.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Ability Choice Care",
+    "role": "Business Client",
+    "company": "Ability Choice Care",
+    "persona": "business",
+    "content": "Excellent service, highly recommended",
+    "rating": 5,
+    "image": "/images/testimonial-ability.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Marjorie Abad-Vergara",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Great and reliable service",
+    "rating": 5,
+    "image": "/images/testimonial-marjorie.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Muhammad Ali Coolkids",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Great service",
+    "rating": 5,
+    "image": "/images/testimonial-muhammad.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Seban A.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek was unbelievable and very knowledgeable. He was easy to engage with and done an amazing work wit my task. Thank you again.",
+    "rating": 5,
+    "image": "/images/testimonial-seban.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Zack R.",
+    "role": "Bookkeeper",
+    "company": "",
+    "persona": "business",
+    "content": "Very helpful and professional. I recommend him to anyone that needs a XERO expert.",
+    "rating": 5,
+    "image": "/images/testimonial-zack.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Stefan N.",
+    "role": "Business Owner",
+    "company": "",
+    "persona": "business",
+    "content": "Very professional and knowledgable. Will use his services again.",
+    "rating": 5,
+    "image": "/images/testimonial-stefan.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Harry R.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Wish I found Tarek years ago. Absolutely outstanding work. Professional and clear advice. Helped me with multiple task with no issue. Plus he gave me great advice helping me move forward into the next financial years. Highly recommend 10/10.",
+    "rating": 5,
+    "image": "/images/testimonial-harry.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Cindy A.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek has been fantastic and straight onto everything required. Highly recommend.",
+    "rating": 5,
+    "image": "/images/testimonial-cindy.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Gordon C.",
+    "role": "Business Owner",
+    "company": "",
+    "persona": "business",
+    "content": "He is great, fast and competent.",
+    "rating": 5,
+    "image": "/images/testimonial-gordon.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Declan N.",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Tarek was extremely helpful and clear - made dealing with Tax a pleasure which I never thought possible. Highly recommended.",
+    "rating": 5,
+    "image": "/images/testimonial-declan.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Stuart H.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tax Return for Individual and Sole Trader.",
+    "rating": 5,
+    "image": "/images/testimonial-stuart.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Ange G.",
+    "role": "Business Owner",
+    "company": "",
+    "persona": "business",
+    "content": "Great service, punctuatal & super knowledgeable for helping me sort P&L from 10 months ago. Would highly recommend!",
+    "rating": 5,
+    "image": "/images/testimonial-ange.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Jenny N.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Xero assistance.",
+    "rating": 5,
+    "image": "/images/testimonial-jenny.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Mark W.",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Friendly and efficient.",
+    "rating": 5,
+    "image": "/images/testimonial-markw.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Mario M.",
+    "role": "Business Owner",
+    "company": "",
+    "persona": "business",
+    "content": "Excellent communication and knows his stuff. Has saved me hours of time and look forward to working with him in the years to come.",
+    "rating": 5,
+    "image": "/images/testimonial-mario.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Angus P.",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Tarek was very helpful and knowledgeable. Highly recommend.",
+    "rating": 5,
+    "image": "/images/testimonial-angus.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Dino F.",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "Great guy. Did everything to get the job done.",
+    "rating": 5,
+    "image": "/images/testimonial-dino.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Rebecca L.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Good experience to work with Tarek online, thank you for your patience and time.",
+    "rating": 5,
+    "image": "/images/testimonial-rebecca.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Nikki C.",
+    "role": "Individual",
+    "company": "",
+    "persona": "individual",
+    "content": "I needed a whole year of tracking to be organised and summarised for tax and had no clue where to start. Tarek was able to take me through the whole process step by step to ensure the summary was accurate. His spreadsheet skills are like expert level, he communicates really clearly, is professional in his approach and was able to complete it within 24 hours. Hands down one of the best accountants I’ve ever worked with! Thanks Tarek, I’m sure I’ll be working with you again in the future 😁",
+    "rating": 5,
+    "image": "/images/testimonial-nikkic.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Edward C.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek was an absolute professional and helped with some questions that I had no idea about, he explained them clearly and was quick to finish the task.",
+    "rating": 5,
+    "image": "/images/testimonial-edwardc2.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Gabriel M.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek has reassured me and given me peace of mind. I’m so grateful for his help. He was a wealth of knowledge and offered stress free solutions to me. I can’t thank him enough! I highly recommend him.",
+    "rating": 5,
+    "image": "/images/testimonial-gabriel.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Robbie H.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Tarek was knowledgeable and very helpful.",
+    "rating": 5,
+    "image": "/images/testimonial-robbie.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Zavec P.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "Great to work with, nothing is too much trouble, kind and respectful with a willing attitude. I'd recommend the services to anyone who wants someone to do their financials with care, consideration but also cost effective.",
+    "rating": 5,
+    "image": "/images/testimonial-zavec.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Markus S.",
+    "role": "Client",
+    "company": "",
+    "persona": "business",
+    "content": "absolute legend",
+    "rating": 5,
+    "image": "/images/testimonial-markus.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Adham F.",
+    "role": "Client",
+    "company": "",
+    "persona": "individual",
+    "content": "I can simply say, it’s the best and smoothest tax refund experience ever. Very professional and I highly recommend.",
+    "rating": 5,
+    "image": "/images/testimonial-adham.jpg"
+  }
+]

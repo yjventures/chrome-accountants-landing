@@ -1,0 +1,165 @@
+{
+  "bookkeeping": {
+    "title": "Bookkeeping Services",
+    "description": "Stay compliant and focused on your business with expert bookkeeping, BAS, payroll, and financial management.",
+    "services": [
+      {
+        "name": "BAS & IAS Lodgement",
+        "description": "Keep your business up to date with accurate BAS and IAS lodgement and expert ATO support.",
+        "features": [
+          "BAS/IAS data preparation",
+          "ATO electronic lodgement",
+          "GST, PAYG & FBT advice",
+          "Monthly, quarterly or annual"
+        ],
+        "href": "/pages/services/bookkeeping/bas-ias-lodgement-services"
+      },
+      {
+        "name": "Payroll & Superannuation Management",
+        "description": "Let us manage your payroll, super, and STP so your team is always paid right and on time.",
+        "features": [
+          "Payroll setup & processing",
+          "STP & super compliance",
+          "Employee onboarding",
+          "Award and leave management"
+        ],
+        "href": "/pages/services/bookkeeping/payroll-superannuation-mgmt"
+      },
+      {
+        "name": "Financial Accounting",
+        "description": "Clear, timely Profit & Loss, Balance Sheet, and cash flow reports for better business decisions.",
+        "features": [
+          "Profit & Loss statements",
+          "Balance Sheet reporting",
+          "Cash flow management",
+          "Monthly or annual reports"
+        ],
+        "href": "/pages/services/bookkeeping/financial-accounting-reports"
+      },
+      {
+        "name": "Accounts Payable & Receivable",
+        "description": "Accurate tracking and reconciliation of bills, expenses, invoices, and payments for healthy cash flow.",
+        "features": [
+          "Supplier & bill management",
+          "Employee expense tracking",
+          "Invoicing & bank reconciliation",
+          "Customer payment follow-up"
+        ],
+        "href": "/pages/services/bookkeeping/accounts-payable-receivable"
+      }
+    ]
+  },
+
+  "business": {
+    "title": "Business Services",
+    "description": "Unlock your business potential with proactive accounting, compliance, and financial guidance.",
+    "services": [
+      {
+        "name": "Sole Trade",
+        "description": "All-in-one tax service for sole traders - covering ABN, GST, PAYG, and super compliance.",
+        "features": [
+          "ABN & GST registration",
+          "PAYG & super support",
+          "Profit/loss reporting",
+          "ATO compliance"
+        ],
+        "href": "/pages/services/business/sole-trader-tax-services"
+      },
+      {
+        "name": "Partnership",
+        "description": "Complete tax and compliance solutions for partnerships, including ATO and ASIC requirements.",
+        "features": [
+          "Partnership tax returns",
+          "Individual partner returns",
+          "GST/BAS lodgement",
+          "ATO & ASIC setup"
+        ],
+        "href": "/pages/services/business/partnership-tax-services"
+      },
+      {
+        "name": "Company Tax Returns",
+        "description": "Efficient preparation and lodgement of company tax returns by business tax specialists.",
+        "features": [
+          "Company tax return lodgement",
+          "Quarterly BAS preparation",
+          "GST compliance",
+          "Member of Tax Institute"
+        ],
+        "href": "/pages/services/business/company-tax-returns-aus"
+      },
+      {
+        "name": "Trust Returns",
+        "description": "Tax and compliance support for trust structures to protect and distribute your wealth.",
+        "features": [
+          "Trust tax return lodgement",
+          "Income distribution advice",
+          "Asset protection structures",
+          "ATO compliance"
+        ],
+        "href": "/pages/services/business/trust-tax-return-services"
+      },
+      {
+        "name": "Self Managed Super Funds",
+        "description": "SMSF lodgement and compliance with expert support for your fund’s income and tax needs.",
+        "features": [
+          "SMSF tax return lodgement",
+          "Assessable income review",
+          "ATO compliance at 15% rate",
+          "Super fund setup support"
+        ],
+        "href": "/pages/services/business/self-managed-super-funds"
+      }
+    ]
+  },
+
+  "individual": {
+    "title": "Individual Services",
+    "description": "Personalised advice to help you maximise refunds and build lasting financial security.",
+    "services": [
+      {
+        "name": "Employment Income",
+        "description": "Get the most from your tax return with tailored support for wages, allowances, and work deductions.",
+        "features": [
+          "All occupation types",
+          "Wages & commission reporting",
+          "Claim eligible deductions",
+          "Refund maximisation tips"
+        ],
+        "href": "/pages/services/individual/employment-income-returns"
+      },
+      {
+        "name": "Investment Property",
+        "description": "Maximise your return with expert advice on investment property income, expenses, and deductions.",
+        "features": [
+          "Interest & council rates",
+          "Depreciation & repairs",
+          "Rental advertising claims",
+          "Land tax & strata fees"
+        ],
+        "href": "/pages/services/individual/investment-property-tax"
+      },
+      {
+        "name": "Capital Gains",
+        "description": "Accurately report gains and losses from selling assets like shares or property, with ATO-compliant advice.",
+        "features": [
+          "Asset sale calculation",
+          "CGT discount checks",
+          "Business & property support",
+          "Depreciation claims"
+        ],
+        "href": "/pages/services/individual/capital-gains-tax-service"
+      },
+      {
+        "name": "Foreign Income",
+        "description": "Declare worldwide income and avoid ATO penalties - support for pensions, investments, and overseas work.",
+        "features": [
+          "Pension & annuity reporting",
+          "Foreign business income",
+          "Tax offset for overseas tax",
+          "ATO compliance assurance"
+        ],
+        "href": "/pages/services/individual/foreign-income-tax-aus"
+      }
+    ]
+  }
+}
