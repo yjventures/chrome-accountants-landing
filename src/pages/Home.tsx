@@ -197,7 +197,7 @@ const Home = () => {
                   </div>
                   <p className="text-ca-text leading-relaxed mb-6">{prop.description}</p>
                   <HashLink
-                    to="/contact#book-a-consultation"
+                    to="/contact-chrome-accountants"
                     className="text-ca-mango font-semibold hover:text-ca-blue transition-colors inline-flex items-center"
                   >
                     Get Started →
