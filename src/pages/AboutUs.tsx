@@ -138,20 +138,20 @@ const About = () => {
                   <h3 className="text-2xl font-bold text-ca-blue mb-2">Abed Alatif Itani</h3>
                   <p className="text-ca-mango font-semibold mb-4">Bookkeeping Coordinator</p>
                   <p className="text-ca-text leading-relaxed mb-4">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium explicabo nobis fugit, accusamus et voluptatem? Provident temporibus recusandae nulla, 
-                    deleniti voluptatum soluta suscipit quia, quis mollitia et similique consequuntur asperiores.
+                    As Chrome Accountants’ Bookkeeping Coordinator, Abed ensures every detail of our clients’ financial records is accurate, timely, and 
+                    aligned with the bigger picture. With a strong foundation in bookkeeping and a keen eye for detail, he bridges the gap between day-to-day 
+                    accounts management and long-term financial clarity.                  
                   </p>
                   <p className="text-ca-text leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dignissimos vitae libero praesentium, molestiae vero? 
-                    Voluptas necessitatibus, ipsa repudiandae neque ex ab consequuntur rerum incidunt ad voluptatem maxime illo qui! 
-                    
+                    Abed is dedicated to making bookkeeping not just a back-office task, but a powerful tool that supports smarter decision-making. 
+                    His collaborative approach means clients can trust that their financial data is not only compliant, but also an asset for growth.                    
                   </p>
                 </div>
               </div>
             </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+            {/* <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                 <div className="lg:col-span-1">
                   <div className="aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-ca-mango to-ca-blue flex items-center justify-center">
@@ -176,7 +176,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Team Values Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -380,7 +380,7 @@ const About = () => {
 
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
+      <section className="py-20 bg-cover" style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">

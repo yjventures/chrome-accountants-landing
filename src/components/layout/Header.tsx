@@ -112,12 +112,12 @@ const Header = () => {
 
           {/* CTA and Client Login */}
           <div className="hidden md:flex items-center space-x-4">
-            {/* <Link
+            <Link
               to="/client-login-chrome-accountants"
               className="text-sm font-medium text-ca-text hover:text-ca-blue transition-colors"
             >
               Client Login
-            </Link> */}
+            </Link>
             <Link
               to="/contact-chrome-accountants"
               className="bg-ca-mango text-ca-blue px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all hover:shadow-md"

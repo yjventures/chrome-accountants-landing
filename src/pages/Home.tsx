@@ -162,7 +162,10 @@ const Home = () => {
         </section>
 
         {/* Trust Indicators */}
-        <section className="py-12 bg-gray-50" style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
+        <section
+          className="py-12 bg-no-repeat bg-cover bg-center"
+          style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}
+        >
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
               {trustIndicators.map((item, index) => (
@@ -208,7 +211,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Chrome Financial Health System */}
+       {/* Chrome Financial Health System */}
         <section className="py-20 bg-ca-blue text-white">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -240,7 +243,7 @@ const Home = () => {
 
               <div className="relative">
                 <img
-                  src="/images/chrome-financial-health-system.jpg"
+                  src="/images/chrome-financial-health-system.png"
                   alt="Chrome Financial Health System"
                   className="w-full rounded-xl shadow-2xl"
                 />

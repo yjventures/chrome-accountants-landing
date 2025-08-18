@@ -33,6 +33,7 @@ import BusinessStructureComparisonNSW from './pages/blogs/BusinessStructureCompa
 import StartupFinancialPlanningTemplateNSW from './pages/blogs/StartupFinancialPlanningTemplateNSW';
 import RegistrationRequirementsNSW from './pages/blogs/RegistrationRequirementsNSW';
 import FirstYearTaxTipsNSW from './pages/blogs/FirstYearTaxTipsNSW';
+import TaxReturnPreparationGuideNSW from './pages/blogs/TaxReturnPreparationGuideNSW';
 import Sitemap from './pages/Sitemap';
 
 // Bookkeeping service pages (you already had these)
@@ -104,6 +105,10 @@ function App() {
             <Route path="/startup-financial-planning-template-nsw-chrome-accountants" element={<StartupFinancialPlanningTemplateNSW />} />
             <Route path="/registration-requirements-nsw-chrome-accountants" element={<RegistrationRequirementsNSW />} />
             <Route path="/first-year-tax-tips-nsw-chrome-accountants" element={<FirstYearTaxTipsNSW />} />
+            <Route path="/tax-return-preparation-guide-nsw-chrome-accountants" element={<TaxReturnPreparationGuideNSW />} />
+            <Route path="/startup-financial-planning-nsw-chrome-accountants" element={<StartupFinancialPlanningTemplateNSW />} />
+
+
 
             {/*
               ===== Service detail pages (match services.json hrefs) =====

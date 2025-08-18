@@ -47,7 +47,7 @@ const FinancialAccountingReports = () => {
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Financial Accounting &amp; Reports</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Financial Accounting</h1>
             <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
               Timely P&amp;L, Balance Sheet and cash‑flow reports to run your business with clarity and control.
             </p>

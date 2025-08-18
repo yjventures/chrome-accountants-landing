@@ -299,7 +299,7 @@ const WhyUs = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-ca-blue text-white" style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
+      <section className="py-20 bg-ca-blue text-white bg-cover" style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
