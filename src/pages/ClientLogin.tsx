@@ -205,7 +205,7 @@ const ClientLogin = () => {
                   Experience the Chrome Financial Health System™ difference. 
                   Book your free strategy session to get started.
                 </p>
-                <Link to="/contact">
+                <Link to="/contact-chrome-accountants">
                   <Button className="bg-ca-mango text-ca-blue hover:bg-opacity-90">
                     Book Free Session
                   </Button>
