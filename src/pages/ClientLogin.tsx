@@ -148,7 +148,7 @@ const ClientLogin = () => {
                 <div className="mt-6 pt-6 border-t border-gray-200">
                   <p className="text-center text-sm text-ca-text">
                     Don't have an account? 
-                    <Link to="/contact" className="text-ca-mango hover:text-ca-blue font-medium ml-1">
+                    <Link to="/contact-chrome-accountants" className="text-ca-mango hover:text-ca-blue font-medium ml-1">
                       Contact us to get started
                     </Link>
                   </p>

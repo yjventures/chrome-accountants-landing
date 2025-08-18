@@ -10,7 +10,7 @@ import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ParkingCircle, BusFront 
 import Button from '@/components/ui/Button';
 import Accordion from '@/components/ui/Accordion';
 
-const calendlyUrl = "https://calendly.com/chromeaccountants?primary_color=ffb000";
+const calendlyUrl = "https://calendly.com/chromeaccountants/30min?primary_color=ffb000";
 
 const IndividualServiceBooking = () => {
   const [formData, setFormData] = useState({
