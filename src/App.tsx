@@ -35,6 +35,8 @@ import RegistrationRequirementsNSW from './pages/blogs/RegistrationRequirementsN
 import FirstYearTaxTipsNSW from './pages/blogs/FirstYearTaxTipsNSW';
 import TaxReturnPreparationGuideNSW from './pages/blogs/TaxReturnPreparationGuideNSW';
 import Sitemap from './pages/Sitemap';
+import NotFound404 from './pages/NotFound404';
+
 
 // Bookkeeping service pages (you already had these)
 import BasIasLodgementServices from './pages/services/bookkeeping/BasIasLodgementServices';
@@ -76,7 +78,9 @@ function App() {
             <Route path="/privacy-policy-chrome-accountants" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service-chrome-accountants" element={<TermsOfService />} />
             <Route path="/australian-tax-calculator" element={<TaxCalculator />} />
-
+            <Route path="/404" element={<NotFound404 />} />
+            <Route path="*" element={<NotFound404 />} />
+            
             {/* Guides */}
             <Route path="/business-startup-checklist" element={<BusinessStartupChecklist />} />
             <Route path="/tax-deduction-guide" element={<TaxDeductionGuide />} />

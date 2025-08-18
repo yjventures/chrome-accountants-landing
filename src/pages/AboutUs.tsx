@@ -128,7 +128,7 @@ const About = () => {
                 <div className="lg:col-span-1">
                   <div className="aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-ca-mango to-ca-blue flex items-center justify-center">
                     <img 
-                      src="/images/demo-business-person.jpg" 
+                      src="/images/abed-ca.png" 
                       alt="Abed Alatif Itani, Bookkeeping Coordinator" 
                       className="w-full h-full object-cover"
                     />

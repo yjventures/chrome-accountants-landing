@@ -27,11 +27,11 @@ const ClientLogin = () => {
   };
 
   const portalFeatures = [
-    {
-      icon: <FileText className="h-6 w-6 text-ca-mango" />,
-      title: "Document Library",
-      description: "Access all your tax returns, financial reports, and important documents"
-    },
+    // {
+    //   icon: <FileText className="h-6 w-6 text-ca-mango" />,
+    //   title: "Document Library",
+    //   description: "Access all your tax returns, financial reports, and important documents"
+    // },
     {
       icon: <Calendar className="h-6 w-6 text-ca-mango" />,
       title: "Appointment Scheduling",
@@ -39,8 +39,8 @@ const ClientLogin = () => {
     },
     {
       icon: <Users className="h-6 w-6 text-ca-mango" />,
-      title: "Direct Communication",
-      description: "Message your dedicated accountant and track conversation history"
+      title: "Email Communication",
+      description: "Email your dedicated accountant and track conversation history"
     },
     {
       icon: <Shield className="h-6 w-6 text-ca-mango" />,
@@ -217,23 +217,25 @@ const ClientLogin = () => {
       </div>
       
       {/* Additional Help Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-cover" style={{backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}>
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h2 className="text-2xl font-bold text-ca-blue mb-4">Need Help Accessing Your Account?</h2>
-            <p className="text-ca-text mb-6">
+            <h2 className="text-2xl font-bold text-white mb-4">Need Help Accessing Your Account?</h2>
+            <p className="text-white mb-6">
               Our support team is here to help with any login issues or questions about your portal.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline">
+              <Button className="bg-white text-ca-blue hover:bg-opacity-90 hover:text-white hover:bg-ca-blue">
+
+
                 <Mail className="h-4 w-4 mr-2" />
                 <a href = "mailto:chrome@chromeaccountants.com.au">Email Support</a>
               </Button>
-              <Button variant="outline">
+              <Button className="bg-white text-ca-blue hover:bg-opacity-90 hover:text-white hover:bg-ca-blue">
                 <Users className="h-4 w-4 mr-2" />
                 <Link
-                to="/contact#book-free-session"
+                to="/contact-chrome-accountants"
                 >Book a Consultation
                 </Link>
                 
