@@ -82,7 +82,7 @@ const NotFound404 = () => {
               <div className="rounded-2xl bg-white/5 border border-white/10 p-6">
                 <div className="text-7xl font-black tracking-tight">404</div>
                 <div className="mt-2 text-white">
-                  We couldn’t find that page. Try the links on the left, or head home.
+                  We couldn’t find that page. Visit the linked pages, or head home.
                 </div>
               </div>
 
