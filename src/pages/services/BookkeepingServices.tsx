@@ -268,7 +268,7 @@ const BookkeepingServices = () => {
               Ready to Experience Integrated Financial Services?
             </h2>
             <p className="text-xl text-white mb-8">
-              Book a strategy session and discover how our Chrome Financial Health System™ 
+              Book an appointment and discover how our Chrome Financial Health System™ 
               can transform your financial management.
             </p>
 

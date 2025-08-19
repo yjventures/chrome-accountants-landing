@@ -369,7 +369,7 @@ const Resources = () => {
               Ready to Take Control of Your Financial Future?
             </h2>
             <p className="text-xl text-white mb-8">
-              Book a strategy session and discover how our Chrome Financial Health System™ 
+              Book an appointment and discover how our Chrome Financial Health System™ 
               can transform your financial management and maximize your outcomes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

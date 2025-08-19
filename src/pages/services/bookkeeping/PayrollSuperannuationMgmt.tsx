@@ -112,7 +112,7 @@ const PayrollSuperannuationMgmt = () => {
             <p className="text-xl text-white mb-8">Let our Xero specialists run payroll and super the right way, every time.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <HashLink to="/contact-chrome-accountants">
-                <Button size="lg" className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none">Book a Strategy Session</Button>
+                <Button size="lg" className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none">Book an Appointment</Button>
               </HashLink>
               <HashLink to="/services-chrome-accountants">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none">View All Services</Button>

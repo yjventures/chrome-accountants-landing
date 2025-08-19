@@ -110,7 +110,7 @@ const BusinessServiceBooking = () => {
   const contactFaqs = [
     {
       id: 1,
-      question: "What happens in our strategy session?",
+      question: "What happens in an appointment?",
       answer:
         "It's a friendly, informal chat where we listen to your goals and challenges. We'll review your situation and provide at least one actionable piece of advice you can use right away, whether you decide to work with us or not."
     },
@@ -194,7 +194,7 @@ const BusinessServiceBooking = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold text-ca-blue mb-6">
-                Reserve Your Business Service Strategy Session
+                Reserve Your Business Service Appointment
               </h2>
               <p className="text-lg text-ca-text mb-8">
                 Choose a time that works for you. Our calendar is updated in real-time, so you can book with confidence.

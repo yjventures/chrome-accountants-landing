@@ -110,7 +110,7 @@ const Contact = () => {
   const contactFaqs = [
     {
       id: 1,
-      question: "What happens in a strategy session?",
+      question: "What happens in an appointment?",
       answer:
         "It's a friendly, informal chat where we listen to your goals and challenges. We'll review your situation and provide at least one actionable piece of advice you can use right away, whether you decide to work with us or not."
     },
