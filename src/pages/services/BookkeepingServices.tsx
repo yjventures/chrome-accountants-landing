@@ -274,7 +274,7 @@ const BookkeepingServices = () => {
 
             <Link to="/bookkeeping-service-booking">
               <Button size="lg" className="bg-white text-ca-blue hover:bg-opacity-90">
-                Book Your Strategy Session
+                Book Your Appointment
               </Button>
             </Link>
           </div>

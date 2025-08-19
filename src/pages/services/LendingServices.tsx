@@ -35,7 +35,7 @@ const LendingServices  = () => {
                 size="lg"
                 className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none"
               >
-                Book Your Strategy Session
+                Book Your Appointment
               </Button>
             </HashLink>
             <HashLink to="/services-chrome-accountants">

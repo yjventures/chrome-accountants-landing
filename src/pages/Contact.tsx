@@ -192,7 +192,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold text-ca-blue mb-6">
-                Book Your Strategy Session
+                Book Your Appointment
               </h2>
               <p className="text-lg text-ca-text mb-8">
                 Choose a time that works for you. Our calendar is updated in real-time, so you can book with confidence.
