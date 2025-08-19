@@ -70,7 +70,7 @@ const InvestmentProperty = () => {
         </p>
         <HashLink to="/contact-chrome-accountants">
           <Button size="lg" className="bg-white text-black">
-            Book a Free Consultation
+            Book a Consultation
           </Button>
         </HashLink>
       </section>

@@ -43,7 +43,7 @@ const NotFound404 = () => {
               <Link to="/contact-chrome-accountants">
                 <Button className="bg-white text-ca-blue hover:opacity-90">
                   <Calendar className="h-5 w-5 mr-2" />
-                  Book a Free Strategy Session
+                  Book a Strategy Session
                 </Button>
               </Link>
             </div>

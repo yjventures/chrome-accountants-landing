@@ -203,11 +203,11 @@ const ClientLogin = () => {
                 <h3 className="text-lg font-semibold mb-2">New to Chrome Accountants?</h3>
                 <p className="text-ca-silver mb-4">
                   Experience the Chrome Financial Health System™ difference. 
-                  Book your free strategy session to get started.
+                  Book your strategy session to get started.
                 </p>
                 <Link to="/contact-chrome-accountants">
                   <Button className="bg-ca-mango text-ca-blue hover:bg-opacity-90">
-                    Book Free Session
+                    Book a Session
                   </Button>
                 </Link>
               </div>

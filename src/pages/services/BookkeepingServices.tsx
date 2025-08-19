@@ -243,7 +243,7 @@ const BookkeepingServices = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
-              { step: '1', title: 'Free Consultation', description: 'We understand your needs and explain how we can help' },
+              { step: '1', title: 'Expert Consultation', description: 'We understand your needs and explain how we can help' },
               { step: '2', title: 'Transparent Quote', description: 'Clear pricing with no hidden fees or surprises' },
               { step: '3', title: 'Service Delivery', description: 'Expert execution using our proven systems and processes' },
               { step: '4', title: 'Meeting Close', description: 'Complete transparency on outcomes and next steps' }
@@ -268,13 +268,13 @@ const BookkeepingServices = () => {
               Ready to Experience Integrated Financial Services?
             </h2>
             <p className="text-xl text-white mb-8">
-              Book a free strategy session and discover how our Chrome Financial Health System™ 
+              Book a strategy session and discover how our Chrome Financial Health System™ 
               can transform your financial management.
             </p>
 
             <Link to="/bookkeeping-service-booking">
               <Button size="lg" className="bg-white text-ca-blue hover:bg-opacity-90">
-                Book Your Free Strategy Session
+                Book Your Strategy Session
               </Button>
             </Link>
           </div>

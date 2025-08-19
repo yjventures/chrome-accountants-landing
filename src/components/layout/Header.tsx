@@ -122,7 +122,7 @@ const Header = () => {
               to="/contact-chrome-accountants"
               className="bg-ca-mango text-ca-blue px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all hover:shadow-md"
             >
-              Book Free Session
+              Book a Session
             </Link>
           </div>
 
@@ -219,11 +219,12 @@ const Header = () => {
                 Client Login
               </Link> */}
               <Link
-                to="/contact#book-free-session"
+                to="/contact-chrome-accountants"
+
                 className="mx-2 mt-2 bg-ca-mango text-ca-blue px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all w-fit"
                 onClick={() => setIsOpen(false)}
               >
-                Book Free Session
+                Book a Session
               </Link>
             </nav>
           </div>

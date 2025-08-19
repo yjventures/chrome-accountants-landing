@@ -110,7 +110,7 @@ const IndividualServiceBooking = () => {
   const contactFaqs = [
     {
       id: 1,
-      question: "What happens in a free strategy session?",
+      question: "What happens in our strategy session?",
       answer:
         "It's a friendly, informal chat where we listen to your goals and challenges. We'll review your situation and provide at least one actionable piece of advice you can use right away, whether you decide to work with us or not."
     },
@@ -118,7 +118,7 @@ const IndividualServiceBooking = () => {
       id: 2,
       question: "Is there any obligation to sign up after the session?",
       answer:
-        "None at all. The session is genuinely free and without pressure. Our goal is to show you the value we can provide. If it's a good fit, great. If not, you'll still walk away with valuable advice."
+        "None at all. Our goal is to show you the value we can provide. If it's a good fit, great. If not, you'll still walk away with valuable advice."
     },
     {
       id: 3,
@@ -194,7 +194,7 @@ const IndividualServiceBooking = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold text-ca-blue mb-6">
-                Reserve Your Free Individual Service Strategy Session
+                Reserve Your Individual Service Strategy Session
               </h2>
               <p className="text-lg text-ca-text mb-8">
                 Choose a time that works for you. Our calendar is updated in real-time, so you can book with confidence.

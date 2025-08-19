@@ -323,7 +323,7 @@ const TaxCalculator = () => {
               Need a Professional to Guide you Through?
             </h2>
             <p className="text-xl text-white mb-8">
-              Book a free consultation session today and explore how our Chrome Financial Health System™ 
+              Book a consultation session today and explore how our Chrome Financial Health System™ 
               can revolutionize your financial strategy with precise tax calculations for maximum returns.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -333,7 +333,7 @@ const TaxCalculator = () => {
                   size="lg"
                   className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none"
                 >
-                  Book Your Free Session
+                  Book a Session
                 </Button>
               </HashLink>
               <HashLink to="/services-chrome-accountants">

@@ -112,7 +112,7 @@ const Home = () => {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <HashLink to="/individual-service-booking">
                     <Button size="lg" className="w-full sm:w-auto">
-                      Book a Free Strategy Session
+                      Book a Strategy Session
                     </Button>
                   </HashLink>
                   <HashLink to="/why-us-chrome-accountants">
@@ -370,7 +370,7 @@ const Home = () => {
                 Ready to Take Control of Your Financial Future?
               </h2>
               <p className="text-xl text-white mb-8">
-                Book a free strategy session and discover how our Chrome Financial Health System™
+                Book a strategy session and discover how our Chrome Financial Health System™
                 can transform your financial management and maximize your outcomes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -379,7 +379,7 @@ const Home = () => {
                     size="lg"
                     className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none"
                   >
-                    Book Your Free Session
+                    Book a Session
                   </Button>
                 </HashLink>
                 <HashLink to="/bookkeeping-services-chrome-accountants">
