@@ -72,7 +72,7 @@ function App() {
             <Route path="/about-us-chrome-accountants" element={<AboutUs/>} />
             <Route path="/services-chrome-accountants" element={<Services />} />
             <Route path="/why-us-chrome-accountants" element={<WhyUs />} />
-            <Route path="/resources-chrome-accountants" element={<Resources />} />
+            <Route path="/tax-resources-chrome-accountants" element={<Resources />} />
             <Route path="/contact-chrome-accountants" element={<Contact />} />
             <Route path="/client-login-chrome-accountants" element={<ClientLogin />} />
             <Route path="/privacy-policy-chrome-accountants" element={<PrivacyPolicy />} />
@@ -99,7 +99,6 @@ function App() {
             {/* Blogs */}
             <Route path="/gst-registration-guide-nsw-chrome-accountants" element={<GSTRegistrationGuideNSW />} />
             <Route path="/bookkeeping-basics-nsw-chrome-accountants" element={<BookkeepingBasics />} />
-            <Route path="/tax-planning-strategies-nsw-chrome-accountants" element={<TaxPlanningStrategies />} />
             <Route path="/payroll-compliance-checklist-nsw-chrome-accountants" element={<PayrollComplianceChecklist />} />
             <Route path="/tax-planning-strategies-nsw-chrome-accountants" element={<TaxPlanningStrategiesNSW />} />
             <Route path="/investment-property-tax-tips-nsw-chrome-accountants" element={<InvestmentPropertyTaxTipsNSW />} />

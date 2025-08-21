@@ -3,6 +3,7 @@ import { Building, Calculator, Users, TrendingUp, FileCheck, Shield, BookOpen, P
 import Button from '@/components/ui/Button';
 import { Link, useLocation } from 'react-router-dom';
 import servicesData from '@/data/services.json';
+import { Helmet } from "react-helmet";
 
 type Service = {
   name: string;
@@ -17,6 +18,18 @@ type Category = {
   title: string;
   description: string;
   services: Service[];
+};
+
+const META = {
+  title: "Comprehensive Financial Services | Chrome Accountants",
+  description: "Discover our full range of services including bookkeeping, business, individual, payroll, and more at Chrome Accountants in Sydney.",
+  keywords: "accounting services Sydney, tax services Sydney, bookkeeping Sydney",
+  canonical: "https://www.chromeaccountants.com.au/services-chrome-accountants",
+  h1: "Comprehensive Financial Services",
+  h2: "Comprehensive Accounting and Tax Solutions",
+  firstSentence: "Our services are key components of our proprietary Chrome Financial Health System™, delivered by a team that acts as your dedicated financial champion and translator.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+
 };
 
 const Services = () => {
@@ -76,17 +89,39 @@ const Services = () => {
   };
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+      </Helmet>
+
     <div id="services" className="bg-white scroll-mt-24">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Comprehensive Financial Services
+              {META.h1}
             </h1>
             <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
-              Our services are key components of our proprietary Chrome Financial Health System™, 
-              delivered by a team that acts as your dedicated financial champion and translator.
+              {META.firstSentence}
             </p>
           </div>
         </div>
@@ -282,6 +317,7 @@ const Services = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

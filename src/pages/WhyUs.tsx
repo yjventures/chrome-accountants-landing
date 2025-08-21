@@ -6,6 +6,18 @@ import testimonialsData from '@/data/testimonials.json';
 import faqsData from '@/data/faqs.json';
 import Accordion from '@/components/ui/Accordion';
 import { HashLink } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
+
+const META = {
+  title: "Why Us | Chrome Accountants",
+  description: "Discover why individuals and businesses trust Chrome Accountants in Sydney for reliable tax, accounting, and financial services.",
+  keywords: "best accountants Sydney, why choose Chrome Accountants, trusted accounting firm",
+  canonical: "https://www.chromeaccountants.com.au/why-us-chrome-accountants",
+  h1: "Why Choose Chrome Accountants?",
+  h2: "Your Trusted Accounting Partner",
+  firstSentence: "We're not just another accounting firm. We're your financial champions and trusted accounting firm, committed to delivering exceptional outcomes through our proven Chrome Financial Health System™.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+};
 
 const trustIndicators = [
     { metric: "400+", label: "Trusted Clients" },
@@ -69,17 +81,38 @@ const WhyUs = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+      </Helmet>
     <div id="why-us" className="bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Why Choose Chrome Accountants?
+              {META.h1}
             </h1>
             <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
-              We're not just another accounting firm. We're your financial champions, 
-              committed to delivering exceptional outcomes through our proven Chrome Financial Health System™.
+              {META.firstSentence}
             </p>
           </div>
         </div>
@@ -332,6 +365,7 @@ const WhyUs = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

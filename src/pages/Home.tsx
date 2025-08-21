@@ -1,45 +1,21 @@
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import { CheckCircle, Users, Shield, TrendingUp, Calculator, FileCheck } from 'lucide-react';
+import {Users, Shield, TrendingUp, Calculator, FileCheck } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import ConsentPopup from '@/components/layout/Cookie';
 import testimonialsData from '@/data/testimonials.json';
-import useEmblaCarousel from 'embla-carousel-react';
-import { useCallback } from 'react';
 import { Star } from 'lucide-react';
+import { Helmet } from "react-helmet";
 
-const heroTestimonials = [
-  {
-    id: 1,
-    name: "Sarah Chen",
-    role: "Small Business Owner",
-    company: "Chen's Consulting",
-    content:
-      "Chrome Accountants transformed how I manage my business finances. Their Chrome Financial Health System™ gave me clarity I never had before. The Annual Strategy Forecast they provide is like having a roadmap for my financial future.",
-    rating: 5,
-    image: "/images/sarah-chen.jpg",
-  },
-  {
-    id: 2,
-    name: "Michael Rodriguez",
-    role: "Software Engineer",
-    company: "Individual Tax Client",
-    content:
-      "After years of doing my own taxes and worrying I was missing deductions, Chrome Accountants gave me peace of mind. They explain everything in plain English and guaranteed my maximum refund.",
-    rating: 5,
-    image: "/images/testimonial-michael.jpg",
-  },
-  {
-    id: 3,
-    name: "Emma Thompson",
-    role: "Startup Founder",
-    company: "GreenTech Solutions",
-    content:
-      "Starting my business felt overwhelming until I found Chrome Accountants. They guided me through every step, from choosing the right structure to setting up proper financial systems. I couldn't have done it without them.",
-    rating: 5,
-    image: "/images/testimonial-emma.jpg",
-  },
-];
+const META = {
+  title: "Chrome Accountants | Your Financial Champion",
+  description: "Chrome Accountants offers expert tax, bookkeeping, and business advisory services in Sydney. Helping individuals and businesses grow with confidence.",
+  keywords: "Sydney accountants, tax services, bookkeeping, business advisory, Chrome Accountants",
+  canonical: "https://www.chromeaccountants.com.au/",
+  // h1: "Trusted Accountants in Sydney",
+  // h2: "Expert Tax and Business Services",
+  // firstSentence: "Welcome to Chrome Accountants, your partner for reliable tax and accounting solutions in Sydney."
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+};
 
 const Home = () => {
   const valueProps = [
@@ -89,6 +65,30 @@ const Home = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+
+        <link rel="icon" type="image/png" href="/images/favicon-2.png" />
+      </Helmet>
+
     <main className="overflow-x-clip">
       <div className="bg-white">
         {/* Hero Section */}
@@ -398,6 +398,7 @@ const Home = () => {
       </div>
       <ConsentPopup />
     </main>
+    </>
   );
 };
 

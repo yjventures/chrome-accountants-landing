@@ -9,6 +9,19 @@ import { useEffect, useState, useRef } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, ParkingCircle, BusFront } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Accordion from '@/components/ui/Accordion';
+import { Helmet } from 'react-helmet';
+
+const META = {
+  title: "Contact Us | Chrome Accountants",
+  description: "Get in touch with Chrome Accountants today for professional tax and accounting services in Sydney. Book your consultation now.",
+  keywords: "contact Chrome Accountants, accounting consultation Sydney, tax advisor contact",
+  canonical: "https://www.chromeaccountants.com.au/contact-chrome-accountants",
+  // h1: "Contact Us",
+  // h2: "We’re Here to Help",
+  // firstSentence: "Reach out to Chrome Accountants for professional support with your tax and accounting needs.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+
+};
 
 const calendlyUrl = "https://calendly.com/chromeaccountants?primary_color=ffb000";
 
@@ -147,6 +160,28 @@ const Contact = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+      </Helmet>
     <div id="book-a-consultation" className="bg-white scroll-mt-24" >
       {/* <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
@@ -404,6 +439,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

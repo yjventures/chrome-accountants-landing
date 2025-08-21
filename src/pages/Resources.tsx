@@ -3,6 +3,19 @@ import { Download, Calculator, BookOpen, Users, TrendingUp, FileText, CheckCircl
 import Button from '@/components/ui/Button';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
+
+
+const META = {
+  title: "Accounting and Tax Resources | Chrome Accountants",
+  description: "Browse helpful resources from Chrome Accountants including tax guides, checklists, and business tools designed for Sydney clients.",
+  keywords: "tax resources, accounting guides, business checklist, Chrome Accountants",
+  canonical: "https://www.chromeaccountants.com.au/tax-resources-chrome-accountants",
+  h1: "Financial Resources & Tools",
+  // h2: "Guides and Tools for Success",
+  firstSentence: "Access valuable tools, accounting guides, and tax resources to help you make informed financial decisions and maximize your outcomes.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+};
 
 const Resources = () => {
   const [email, setEmail] = useState('');
@@ -111,17 +124,38 @@ const Resources = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+      </Helmet>
     <div className="bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Financial Resources & Tools
+              {META.h1}
             </h1>
             <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
-              Access valuable tools, guides, and resources to help you make informed 
-              financial decisions and maximize your outcomes.
+              {META.firstSentence}
             </p>
           </div>
         </div>
@@ -395,6 +429,7 @@ const Resources = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

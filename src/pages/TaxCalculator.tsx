@@ -2,7 +2,19 @@ import { useState } from 'react';
 import { DollarSign, Info } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { HashLink } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
 
+
+const META = {
+  title: "Australian Tax Calculator | Chrome Accountants",
+  description: "Use Chrome Accountants' free Australian tax calculator to instantly estimate your personal or business tax refund.",
+  keywords: "Australian tax calculator, business tax calculator, personal tax refund",
+  canonical: "https://www.chromeaccountants.com.au/australian-tax-calculator",
+  h1: "Australian Tax Calculator",
+  // h2: "Estimate Your Taxes Instantly",
+  firstSentence: "Our Australian Tax Calculator provides quick and reliable estimates for individuals and businesses.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+};
 // --- TAX TABLES (2024–25, residents) ---
 const TAX_BRACKETS = [
   { min: 0, max: 18200, rate: 0, base: 0 },
@@ -121,6 +133,28 @@ const TaxCalculator = () => {
   );
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+      </Helmet>
     <div>
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
@@ -350,6 +384,7 @@ const TaxCalculator = () => {
         </div>
       </section>        
     </div>
+    </>
   );
 };
 

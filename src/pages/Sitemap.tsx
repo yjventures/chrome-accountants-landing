@@ -7,7 +7,7 @@ const pages = [
   { path: "/about-us-chrome-accountants", label: "About Us" },
   { path: "/services-chrome-accountants", label: "Services" },
   { path: "/why-us-chrome-accountants", label: "Why Us" },
-  { path: "/resources-chrome-accountants", label: "Resources" },
+  { path: "/tax-resources-chrome-accountants", label: "Resources" },
   { path: "/contact-chrome-accountants", label: "Contact" },
   { path: "/client-login-chrome-accountants", label: "Client Login" },
   { path: "/privacy-policy-chrome-accountants", label: "Privacy Policy" },

@@ -50,7 +50,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link to="/why-us-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Why Us</Link></li>
               <li><Link to="/about-us-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">About Us</Link></li>
-              <li><Link to="/resources-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Resources</Link></li>
+              <li><Link to="/tax-resources-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Resources</Link></li>
               <li><Link to="/australian-tax-calculator" className="text-ca-silver hover:text-ca-mango transition-colors">Tax Calculator</Link></li>
               {/* <li><Link to="/client-login-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Client Login</Link></li> */}
             </ul>

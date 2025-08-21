@@ -22,7 +22,7 @@ const Header = () => {
     },
     { name: 'Why Us', href: '/why-us-chrome-accountants' },
     { name: 'About Us', href: '/about-us-chrome-accountants' },
-    { name: 'Resources', href: '/resources-chrome-accountants' },
+    { name: 'Resources', href: '/tax-resources-chrome-accountants' },
     { name: 'AI Tax Calculator', href: '/australian-tax-calculator' },
   ];
 

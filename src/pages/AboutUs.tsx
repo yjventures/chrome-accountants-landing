@@ -2,6 +2,23 @@ import { Users, Award, Heart, Target } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import { Helmet } from "react-helmet";
+
+
+const META = {
+  title: "About Us | Chrome Accountants",
+  description:
+    "Learn more about Chrome Accountants, our mission, values, and the experienced team behind our trusted tax and accounting services in Sydney.",
+  keywords:
+    "About Chrome Accountants, Sydney tax experts, professional accountants",
+  canonical: "https://www.chromeaccountants.com.au/about-us-chrome-accountants",
+  h1: "Your Financial Champion & Tax Experts",
+  // h2: "We demystify the complexities of tax and business finance so obligations become opportunities",
+  firstSentence:
+    "We believe that financial management shouldn't be a source of stress, but a tool for empowerment. Our mission is to demystify the complexities of tax and business finance, transforming obligations into opportunities.",
+  ogImage: "https://www.chromeaccountants.com.au/images/og-ca.png"
+};
+
 
 const About = () => {
   const values = [
@@ -28,18 +45,41 @@ const About = () => {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>{META.title}</title>
+        <meta name="description" content={META.description} />
+        <meta name="keywords" content={META.keywords} />
+        <link rel="canonical" href={META.canonical} />
+
+        {/* Social (optional but recommended) */}
+        <meta property="og:title" content={META.title} />
+        <meta property="og:description" content={META.description} />
+        <meta property="og:url" content={META.canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={META.ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={META.title} />
+        <meta name="twitter:description" content={META.description} />
+        <meta name="twitter:image" content={META.ogImage} />
+
+        {/* Optional: favicon */}
+        <link rel="icon" type="image/png" href="/images/favicon-2.png" />
+      </Helmet>
     <div className="bg-white">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Your Financial Champion & Translator
+              {META.h1}
             </h1>
             <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
-              We believe that financial management shouldn't be a source of stress, 
-              but a tool for empowerment. Our passion is to demystify the complexities 
-              of tax and business finance, transforming obligations into opportunities.
+              {META.firstSentence}
             </p>
           </div>
         </div>
@@ -404,6 +444,7 @@ const About = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

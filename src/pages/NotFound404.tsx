@@ -63,7 +63,7 @@ const NotFound404 = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="hover:text-white underline/30 hover:underline" to="/resources-chrome-accountants">
+                  <Link className="hover:text-white underline/30 hover:underline" to="/tax-resources-chrome-accountants">
                     Resources
                   </Link>
                 </li>
