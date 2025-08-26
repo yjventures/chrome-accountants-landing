@@ -1,33 +1,77 @@
-# List of pages approved for AI and LLM indexing
-https://www.chromeaccountants.com.au/
-https://www.chromeaccountants.com.au/about-us-chrome-accountants
-https://www.chromeaccountants.com.au/services-chrome-accountants
-https://www.chromeaccountants.com.au/why-us-chrome-accountants
-https://www.chromeaccountants.com.au/tax-resources-chrome-accountants
-https://www.chromeaccountants.com.au/contact-chrome-accountants
-https://www.chromeaccountants.com.au/client-login-chrome-accountants
-https://www.chromeaccountants.com.au/privacy-policy-chrome-accountants
-https://www.chromeaccountants.com.au/terms-of-service-chrome-accountants
-https://www.chromeaccountants.com.au/australian-tax-calculator
-https://www.chromeaccountants.com.au/business-startup-checklist
-https://www.chromeaccountants.com.au/tax-deduction-guide
-https://www.chromeaccountants.com.au/financial-health-checklist
-https://www.chromeaccountants.com.au/bookkeeping-service-booking
-https://www.chromeaccountants.com.au/business-service-booking
-https://www.chromeaccountants.com.au/individual-service-booking
-https://www.chromeaccountants.com.au/bookkeeping-services-chrome-accountants
-https://www.chromeaccountants.com.au/business-services-chrome-accountants
-https://www.chromeaccountants.com.au/individual-services-chrome-accountants
-https://www.chromeaccountants.com.au/gst-registration-guide-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/bookkeeping-basics-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/tax-planning-strategies-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/payroll-compliance-checklist-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/investment-property-tax-tips-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/work-related-deductions-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/cryptocurrency-tax-guide-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/business-structure-comparison-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/startup-financial-planning-template-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/registration-requirements-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/first-year-tax-tips-nsw-chrome-accountants
-https://www.chromeaccountants.com.au/sitemap
-https://www.chromeaccountants.com.au/sitemap.xml
+# Chrome Accountants
+
+> Sydney-based accountants helping individuals and businesses achieve the best legal financial outcomes through transparent systems and proven processes.
+
+We combine compliance with strategy using our proprietary Chrome Financial Health System™. Services span tax, bookkeeping, business structuring, and financial planning. We support both individuals and SMEs in Australia.
+
+## Core Content Sections
+
+### Company & Trust
+- [About Us](https://www.chromeaccountants.com.au/about-us-chrome-accountants): Firm background, mission, and philosophy.
+- [Why Us](https://www.chromeaccountants.com.au/why-us-chrome-accountants): Differentiators (Financial Health System™, strategy forecast, transparency).
+- [Sitemap](https://www.chromeaccountants.com.au/sitemap-chrome-accountants): Full navigation index.
+
+### Services (Hub Pages)
+- [All Services](https://www.chromeaccountants.com.au/services-chrome-accountants): Service categories overview.
+- [Bookkeeping Services](https://www.chromeaccountants.com.au/bookkeeping-services-chrome-accountants): Day-to-day and management bookkeeping.
+- [Business Services](https://www.chromeaccountants.com.au/business-services-chrome-accountants): Company & SME-focused tax, BAS, compliance.
+- [Individual Services](https://www.chromeaccountants.com.au/individual-services-chrome-accountants): Tax returns, planning, and advisory.
+
+### Detailed Service Pages
+**Bookkeeping**
+- [BAS & IAS Lodgement](https://www.chromeaccountants.com.au/pages/services/bookkeeping/bas-ias-lodgement-services): BAS/IAS compliance and filing.
+- [Accounts Payable & Receivable](https://www.chromeaccountants.com.au/pages/services/bookkeeping/accounts-payable-receivable): Cashflow management.
+- [Payroll & Superannuation](https://www.chromeaccountants.com.au/pages/services/bookkeeping/payroll-superannuation-mgmt): Payroll processing & super compliance.
+- [Financial Accounting Reports](https://www.chromeaccountants.com.au/pages/services/bookkeeping/financial-accounting-reports): Reporting & insights.
+
+**Business**
+- [Sole Trader Tax](https://www.chromeaccountants.com.au/pages/services/business/sole-trader-tax-services): Registration & tax filing.
+- [Partnership Tax](https://www.chromeaccountants.com.au/pages/services/business/partnership-tax-services): Partnership structures & compliance.
+- [Company Tax](https://www.chromeaccountants.com.au/pages/services/business/company-tax-returns-aus): Corporate tax returns.
+- [Trust Tax](https://www.chromeaccountants.com.au/pages/services/business/trust-tax-return-services): Trust setup & returns.
+- [Self-Managed Super Funds](https://www.chromeaccountants.com.au/pages/services/business/self-managed-super-funds): SMSF compliance & tax.
+
+**Individual**
+- [Employment Income](https://www.chromeaccountants.com.au/pages/services/individual/employment-income-returns): Returns for employees.
+- [Investment Property](https://www.chromeaccountants.com.au/pages/services/individual/investment-property-tax): Investment property tax deductions.
+- [Capital Gains Tax](https://www.chromeaccountants.com.au/pages/services/individual/capital-gains-tax-service): CGT planning & reporting.
+- [Foreign Income](https://www.chromeaccountants.com.au/pages/services/individual/foreign-income-tax-aus): Foreign income reporting.
+
+### Guides & Tools
+- [Australian Tax Calculator](https://www.chromeaccountants.com.au/australian-tax-calculator): For FY 2024–2025 only.
+- [Business Startup Checklist](https://www.chromeaccountants.com.au/business-startup-checklist): NSW/Australia startup compliance guide.
+- [Tax Deduction Guide](https://www.chromeaccountants.com.au/tax-deduction-guide): Deductible categories (AU).
+- [Financial Health Checklist](https://www.chromeaccountants.com.au/financial-health-checklist): Evaluate personal/business finances.
+
+### Blog Resources
+- [GST Registration Guide NSW](https://www.chromeaccountants.com.au/gst-registration-guide-nsw-chrome-accountants)
+- [Bookkeeping Basics NSW](https://www.chromeaccountants.com.au/bookkeeping-basics-nsw-chrome-accountants)
+- [Payroll Compliance Checklist NSW](https://www.chromeaccountants.com.au/payroll-compliance-checklist-nsw-chrome-accountants)
+- [Tax Planning Strategies NSW](https://www.chromeaccountants.com.au/tax-planning-strategies-nsw-chrome-accountants)
+- [Investment Property Tax Tips NSW](https://www.chromeaccountants.com.au/investment-property-tax-tips-nsw-chrome-accountants)
+- [Work-Related Deductions NSW](https://www.chromeaccountants.com.au/work-related-deductions-nsw-chrome-accountants)
+- [Cryptocurrency Tax Guide NSW](https://www.chromeaccountants.com.au/cryptocurrency-tax-guide-nsw-chrome-accountants)
+- [Business Structure Comparison NSW](https://www.chromeaccountants.com.au/business-structure-comparison-nsw-chrome-accountants)
+- [Startup Financial Planning Template NSW](https://www.chromeaccountants.com.au/startup-financial-planning-nsw-chrome-accountants)
+- [Registration Requirements NSW](https://www.chromeaccountants.com.au/registration-requirements-nsw-chrome-accountants)
+- [First Year Tax Tips NSW](https://www.chromeaccountants.com.au/first-year-tax-tips-nsw-chrome-accountants)
+- [Tax Return Preparation Guide NSW](https://www.chromeaccountants.com.au/tax-return-preparation-guide-nsw-chrome-accountants)
+
+### Bookings
+- [Bookkeeping Service Booking](https://www.chromeaccountants.com.au/bookkeeping-service-booking)
+- [Business Service Booking](https://www.chromeaccountants.com.au/business-service-booking)
+- [Individual Service Booking](https://www.chromeaccountants.com.au/individual-service-booking)
+
+### Policies & Access
+- [Privacy Policy](https://www.chromeaccountants.com.au/privacy-policy-chrome-accountants)
+- [Terms of Service](https://www.chromeaccountants.com.au/terms-of-service-chrome-accountants)
+- [Client Login](https://www.chromeaccountants.com.au/client-login-chrome-accountants)
+
+## Content to Handle With Care
+- Legacy short paths (e.g. `/bas-and-ias-lodgement`, `/payroll-superannuation-mgmt`) → prefer canonical `/pages/services/...` routes.
+- Exclude `/404`, `/thank-you`, preview or campaign pages.
+
+## Additional Context
+- **Trust metrics**: 400+ clients, $2.5M+ tax savings, 95% retention, 4.9-star Google rating.
+- **Audience**: Individuals and SMEs in Sydney/NSW seeking compliance + advisory.
+- **Canonical**: Always use `https://www.chromeaccountants.com.au/` with `www`.

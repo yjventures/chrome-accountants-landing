@@ -117,7 +117,7 @@ const Home = () => {
                   </HashLink>
                   <HashLink to="/why-us-chrome-accountants">
                     <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-ca-blue">
-                      Learn More
+                      Why Us?
                     </Button>
                   </HashLink>
                 </div>

@@ -22,13 +22,19 @@ const Footer = () => {
               Your financial champion and translator. We bring clarity and confidence to the world of accounting.
             </p> */}
             <div className="flex space-x-4 justify-center">
-              <a href="https://www.linkedin.com/in/tarek-alarab-aab7b577/?originalSubdomain=au" className="text-ca-silver hover:text-ca-mango transition-colors">
+              <a href="https://www.linkedin.com/in/tarek-alarab-aab7b577/?originalSubdomain=au" 
+              aria-label="Follow us on LinkedIn"
+              className="text-ca-silver hover:text-ca-mango transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100064209634852" className="text-ca-silver hover:text-ca-mango transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=100064209634852" 
+              aria-label="Follow us on Facebook"
+              className="text-ca-silver hover:text-ca-mango transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="https://www.instagram.com/chrome_accountants/" className="text-ca-silver hover:text-ca-mango transition-colors">
+              <a href="https://www.instagram.com/chrome_accountants/" 
+              aria-label="Follow us on Instagram"
+              className="text-ca-silver hover:text-ca-mango transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -83,7 +89,9 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-ca-silver text-sm">
               Designed & Developed by 
-              <a href="https://www.inovasolutions.ai/" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.inovasolutions.ai/" 
+              aria-label="Visit Inova AI Solutions website"
+              target="_blank" rel="noopener noreferrer"
               className="text-ca-mango hover:text-ca-mango transition-colors"> Inova AI Solutions</a> © 2025 Chrome Accountants. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">

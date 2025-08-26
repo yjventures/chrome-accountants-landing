@@ -133,6 +133,7 @@ const Header = () => {
               setIsOpen(!isOpen);
               setOpenMobileIdx(null);
             }}
+            aria-label={isOpen ? "Close main menu" : "Open main menu"}
             aria-expanded={isOpen}
             aria-controls="mobile-nav"
           >
