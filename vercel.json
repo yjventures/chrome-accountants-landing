@@ -5,6 +5,36 @@
       "source": "/client-contact-form",
       "destination": "/data/CA-Client-Contact-Form.pdf",
       "permanent": true
+    },
+      {
+      "source": "/contact-us/",
+      "destination": "/contact-chrome-accountants",
+      "permanent": true
+    },
+    {
+      "source": "/about-chrome/",
+      "destination": "/about-us-chrome-accountants",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/",
+      "destination": "/services-chrome-accountants",
+      "permanent": true
+    },
+    {
+      "source": "/individual-services/",
+      "destination": "/individual-services-chrome-accountants",
+      "permanent": true
+    },
+    {
+      "source": "/business-services/",
+      "destination": "/business-services-chrome-accountants",
+      "permanent": true
+    },
+    {
+      "source": "/bookkeeping-services/",
+      "destination": "/bookkeeping-services-chrome-accountants",
+      "permanent": true
     }
   ],
   "rewrites": [
