@@ -12,9 +12,6 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import TaxCalculator from './pages/TaxCalculator';
 import ScrollToTop from './components/ScrollToTop';
-import BusinessStartupChecklist from './pages/guides/BusinessStartupChecklist';
-import TaxDeductionGuide from './pages/guides/TaxDeductionGuide';
-import FinancialHealthChecklist from './pages/guides/FinancialHealthChecklist';
 import BookkeepingServiceBooking from './pages/bookings/BookkeepingServiceBooking';
 import BusinessServiceBooking from './pages/bookings/BusinessServiceBooking';
 import IndividualServiceBooking from './pages/bookings/IndividualServiceBooking';
@@ -37,6 +34,18 @@ import TaxReturnPreparationGuideNSW from './pages/blogs/TaxReturnPreparationGuid
 import Sitemap from './pages/Sitemap';
 import NotFound404 from './pages/NotFound404';
 
+// Resouce Guides
+import BusinessStartupChecklist from './pages/guides/BusinessStartupChecklist';
+import TaxDeductionGuide from './pages/guides/TaxDeductionGuide';
+import FinancialHealthChecklist from './pages/guides/FinancialHealthChecklist';
+import CryptoTaxesSydney from './pages/guides/CryptoTaxesSydney';
+import GSTinNSWGuide from './pages/guides/GSTinNSWGuide';
+import StampDutyLandTaxNSW from './pages/guides/StampDutyLandTaxNSW';
+import PayrollComplianceChecklist2025 from './pages/guides/PayrollComplianceChecklist2025';
+import SwappingCryptoTaxable from './pages/guides/SwappingCryptoTaxable';
+import TopTaxAgentsMerrylands from './pages/guides/TopTaxAgentsMerrylands';
+import IndependentContractorDeductions from './pages/guides/IndependentContractorDeductions';
+import LodgeTaxReturnMerrylands from './pages/guides/LodgeTaxReturnMerrylands';
 
 // Bookkeeping service pages (you already had these)
 import BasIasLodgementServices from './pages/services/bookkeeping/BasIasLodgementServices';
@@ -57,6 +66,7 @@ import InvestmentProperty from './pages/services/individual/InvestmentProperty';
 import CapitalGainsTaxService from './pages/services/individual/CapitalGainsTaxService';
 import ForeignIncomeTaxAus from './pages/services/individual/ForeignIncomeTaxAus';
 import LendingServices from './pages/services/LendingServices';
+
 
 function App() {
   return (
@@ -85,6 +95,15 @@ function App() {
             <Route path="/business-startup-checklist" element={<BusinessStartupChecklist />} />
             <Route path="/tax-deduction-guide" element={<TaxDeductionGuide />} />
             <Route path="/financial-health-checklist" element={<FinancialHealthChecklist />} />
+            <Route path="/crypto-taxes-sydney" element={<CryptoTaxesSydney />} />
+            <Route path="/gst-in-nsw-guide" element={<GSTinNSWGuide />} />
+            <Route path="/stamp-duty-land-tax-nsw" element={<StampDutyLandTaxNSW />} />
+            <Route path="/payroll-compliance-checklist-2025" element={<PayrollComplianceChecklist2025 />} />
+            <Route path="/swapping-crypto-taxable" element={<SwappingCryptoTaxable />} />
+            <Route path="/top-tax-agents-merrylands" element={<TopTaxAgentsMerrylands />} />
+            <Route path="/independent-contractor-deductions" element={<IndependentContractorDeductions />} />
+            <Route path="/lodge-tax-return-merrylands" element={<LodgeTaxReturnMerrylands />} />
+
 
             {/* Bookings */}
             <Route path="/bookkeeping-service-booking" element={<BookkeepingServiceBooking />} />

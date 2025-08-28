@@ -80,6 +80,15 @@ export default function FinancialHealthChecklist() {
             <div className="text-sm text-[#7c838a] text-center">
               <b>Tip:</b> Review your business health every quarter, not just at tax time. NSW and ATO rules change regularly - stay updated via your adviser or <a href="https://www.service.nsw.gov.au/business" className="text-ca-blue underline" target="_blank" rel="noopener noreferrer">Service NSW Business</a>.
             </div>
+            <div className="mt-10 text-center">
+              <a
+                href="/contact-chrome-accountants"
+                className="inline-block bg-ca-mango text-white font-semibold py-3 px-6 rounded-lg shadow hover:opacity-90 transition"
+                aria-label="book-a-consultation"
+              >
+                Book a Consultation with Us Today!
+              </a>
+            </div>
           </div>
         </div>
       </section>

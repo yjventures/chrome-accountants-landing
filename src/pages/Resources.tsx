@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Download, Calculator, BookOpen, Users, TrendingUp, FileText, CheckCircle } from 'lucide-react';
+import { Download, Calculator, BookOpen, Users, TrendingUp, FileText, CheckCircle, Home, Coins, Star, FileCheck, ArrowLeftRight, ClipboardCheck, Percent, Briefcase} from 'lucide-react';
+
 import Button from '@/components/ui/Button';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -87,8 +88,65 @@ const Resources = () => {
       icon: <TrendingUp className="h-8 w-8 text-ca-mango" />,
       downloadLink: "/financial-health-checklist",
       target: "business"
-    }
-  ];
+    },
+    {
+    title: "Top Tax Agents in Merrylands",
+    description: "How to choose the right registered tax agent in Merrylands and why Chrome Accountants leads the way.",
+    icon: <Star className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/top-tax-agents-merrylands",
+    target: "individual",
+    },
+    {
+    title: "How to Lodge a Tax Return in Merrylands",
+    description: "A step-by-step guide for individuals and sole traders in NSW to prepare and lodge their tax return.",
+    icon: <FileCheck className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/lodge-tax-return-merrylands",
+    target: "individual",
+    },
+    {
+    title: "Crypto Taxes in Australia",
+    description: "Understand how the ATO taxes cryptocurrency and when to seek a crypto specialist accountant in Sydney.",
+    icon: <Coins className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/crypto-taxes-sydney",
+
+    target: "business",
+    },
+    {
+    title: "Is Swapping Crypto Taxable in Australia?",
+    description: "Learn how crypto-to-crypto swaps are taxed and what records you need to keep for compliance.",
+    icon: <ArrowLeftRight className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/swapping-crypto-taxable",
+    target: "business",
+  },
+  {
+    title: "Payroll Compliance Checklist 2025",
+    description: "Stay compliant with the Fair Work Act, ATO, and superannuation laws using this updated checklist.",
+    icon: <ClipboardCheck className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/payroll-compliance-checklist-2025",
+    target: "business",
+    },
+    {
+    title: "How Much is GST in NSW?",
+    description: "A simple GST guide for NSW small businesses covering thresholds, credits, and reporting.",
+    icon: <Percent className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/gst-in-nsw-guide",
+    target: "business",
+    },
+    {
+    title: "Stamp Duty & Land Tax in NSW",
+    description: "Understand what’s deductible and what’s not when buying or owning property in NSW.",
+    icon: <Home className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/stamp-duty-land-tax-nsw",
+    target: "individual",
+    },
+    {
+    title: "Independent Contractor Deductions",
+    description: "Essential tax deductions every independent contractor in NSW should know to reduce taxable income.",
+    icon: <Briefcase className="h-8 w-8 text-ca-mango" />,
+    downloadLink: "/independent-contractor-deductions",
+    target: "individual",
+    },
+    ];
 
   const resourceCategories = [
     {
