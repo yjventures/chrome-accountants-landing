@@ -34,19 +34,19 @@ const ClientLogin = () => {
     // },
     {
       icon: <Calendar className="h-6 w-6 text-ca-mango" />,
-      title: "Appointment Scheduling",
+      title: "Appointments",
       description: "Book meetings, view upcoming appointments, and manage your calendar"
     },
     {
       icon: <Users className="h-6 w-6 text-ca-mango" />,
-      title: "Email Communication",
+      title: "Communication",
       description: "Email your dedicated accountant and track conversation history"
     },
-    {
-      icon: <Shield className="h-6 w-6 text-ca-mango" />,
-      title: "Secure File Upload",
-      description: "Safely upload sensitive documents with bank-level encryption"
-    }
+    // {
+    //   icon: <Shield className="h-6 w-6 text-ca-mango" />,
+    //   title: "Secure File Upload",
+    //   description: "Safely upload sensitive documents with bank-level encryption"
+    // }
   ];
 
   return (
@@ -175,7 +175,7 @@ const ClientLogin = () => {
             <div className="w-full">
               <div className="mb-8">
                 <h2 className="text-3xl font-bold text-ca-blue mb-4">
-                  Your Secure Financial Hub
+                  Your Secure AI Financial Hub
                 </h2>
                 <p className="text-lg text-ca-text">
                   Once logged in, you'll have 24/7 access to your complete financial 
