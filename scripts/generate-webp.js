@@ -1,0 +1,26 @@
+const fs = require('fs');
+const path = require('path');
+
+console.log('🖼️  WebP Image Generation Instructions');
+console.log('=====================================');
+console.log('');
+console.log('To generate WebP versions of your images for better performance:');
+console.log('');
+console.log('1. Install WebP tools:');
+console.log('   npm install -g webp');
+console.log('');
+console.log('2. Generate WebP versions of critical images:');
+console.log('   cwebp -q 80 public/images/sarah-chen.jpg -o public/images/sarah-chen.webp');
+console.log('   cwebp -q 80 public/images/chrome-financial-health-system.png -o public/images/chrome-financial-health-system.webp');
+console.log('   cwebp -q 80 public/images/paralox-mango-bg.jpg -o public/images/paralox-mango-bg.webp');
+console.log('');
+console.log('3. Generate WebP versions of partner logos:');
+console.log('   cwebp -q 85 public/images/commbank-partner-logo.png -o public/images/commbank-partner-logo.webp');
+console.log('   cwebp -q 85 public/images/westpac-partner-logo.png -o public/images/westpac-partner-logo.webp');
+console.log('   cwebp -q 85 public/images/st-george-partner-logo.png -o public/images/st-george-partner-logo.webp');
+console.log('');
+console.log('Expected file size reductions:');
+console.log('- JPEG images: 25-35% smaller');
+console.log('- PNG images: 25-50% smaller');
+console.log('');
+console.log('This should improve LCP and FCP significantly!');

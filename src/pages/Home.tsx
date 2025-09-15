@@ -280,6 +280,8 @@ const Home = () => {
                   src="/images/commbank-partner-logo.png"
                   alt="Commonwealth Bank"
                   className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
               <a
@@ -292,6 +294,8 @@ const Home = () => {
                   src="/images/westpac-partner-logo.png"
                   alt="Westpac Bank"
                   className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[300px] w-auto"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
               <a
@@ -304,6 +308,8 @@ const Home = () => {
                   src="/images/st-george-partner-logo.png"
                   alt="St. George Bank"
                   className="h-40 sm:h-44 md:h-48 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
+                  loading="lazy"
+                  decoding="async"
                 />
               </a>
             </div>
