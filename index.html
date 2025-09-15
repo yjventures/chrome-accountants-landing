@@ -38,9 +38,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="dns-prefetch" href="//www.googletagmanager.com" />
   
+  <!-- Critical CSS for above-the-fold -->
+  <style>
+    body { margin: 0; font-family: Inter, sans-serif; }
+    .hero-section { background: #122A44; min-height: 100vh; display: flex; align-items: center; }
+    .hero-title { color: white; font-size: 3rem; font-weight: 700; line-height: 1.1; }
+    .hero-subtitle { color: #FCB426; font-size: 3rem; font-weight: 700; line-height: 1.1; }
+    .hero-text { color: white; font-size: 1.25rem; line-height: 1.6; margin: 1.5rem 0; }
+    .hero-buttons { display: flex; gap: 1rem; margin-top: 2rem; }
+    .btn-primary { background: #FCB426; color: #122A44; padding: 1rem 2rem; border-radius: 0.5rem; font-weight: 600; text-decoration: none; display: inline-block; }
+    .btn-secondary { background: transparent; color: #122A44; border: 2px solid #122A44; padding: 1rem 2rem; border-radius: 0.5rem; font-weight: 600; text-decoration: none; display: inline-block; }
+  </style>
+  
   <!-- Optimize font loading -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" /></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
   
   
   <!-- Enhanced Meta Tags -->
