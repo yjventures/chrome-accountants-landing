@@ -164,7 +164,12 @@ const Home = () => {
         {/* Trust Indicators */}
         <section
           className="py-12 bg-no-repeat bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}
+          style={{ 
+            backgroundImage: "url('/images/paralox-mango-bg.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'scroll'
+          }}
         >
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
@@ -360,7 +365,12 @@ const Home = () => {
         {/* CTA Section */}
         <section
           className="relative py-20 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}
+          style={{ 
+            backgroundImage: "url('/images/paralox-mango-bg.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'scroll'
+          }}
         >
           <div className="absolute inset-0 pointer-events-none" />
           <div className="container relative mx-auto px-4 text-center">
