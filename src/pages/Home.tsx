@@ -248,11 +248,11 @@ const Home = () => {
               </div>
 
               <div className="relative">
-                <img
-                  src="/images/chrome-financial-health-system.avif"
-                  alt="Chrome Financial Health System"
-                  className="w-full rounded-xl shadow-2xl"
-                />
+                  <img
+                    src="/images/chrome-financial-health-system.avif"
+                    alt="Chrome Financial Health System"
+                    className="w-full rounded-xl shadow-2xl"
+                  />
               </div>
             </div>
           </div>
