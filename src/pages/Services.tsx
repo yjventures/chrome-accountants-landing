@@ -308,7 +308,7 @@ const Services = () => {
               can transform your financial management.
             </p>
             
-            <Link to="/contact-chrome-accountants">
+            <Link to="/contact-chrome-accountants" className="inline-block min-h-[48px] min-w-[48px]">
               <Button size="lg" className="bg-white text-ca-blue hover:bg-opacity-90">
                 Book Your Appointment
               </Button>

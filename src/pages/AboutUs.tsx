@@ -431,7 +431,7 @@ const About = () => {
               management with our expert guidance and Chrome Financial Health System™.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <HashLink to="/contact-chrome-accountants">
+              <HashLink to="/contact-chrome-accountants" className="inline-block min-h-[48px] min-w-[48px]">
                 <Button
                   size="lg"
                   className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none"

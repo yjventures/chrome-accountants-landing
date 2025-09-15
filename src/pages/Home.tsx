@@ -110,12 +110,12 @@ const Home = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <HashLink to="/individual-service-booking">
+                  <HashLink to="/individual-service-booking" className="inline-block min-h-[48px] min-w-[48px]">
                     <Button size="lg" className="w-full sm:w-auto text-base sm:text-lg">
                       Book Your Appointment
                     </Button>
                   </HashLink>
-                  <HashLink to="/why-us-chrome-accountants">
+                  <HashLink to="/why-us-chrome-accountants" className="inline-block min-h-[48px] min-w-[48px]">
                     <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-ca-blue text-base sm:text-lg">
                       Why Us?
                     </Button>
@@ -384,7 +384,7 @@ const Home = () => {
                 can transform your financial management and maximize your outcomes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <HashLink to="/contact-chrome-accountants">
+                <HashLink to="/contact-chrome-accountants" className="inline-block min-h-[48px] min-w-[48px]">
                   <Button
                     size="lg"
                     className="w-full sm:w-auto bg-white text-black hover:bg-ca-blue hover:text-white border-none"
@@ -392,7 +392,7 @@ const Home = () => {
                     Book a Session
                   </Button>
                 </HashLink>
-                <HashLink to="/bookkeeping-services-chrome-accountants">
+                <HashLink to="/bookkeeping-services-chrome-accountants" className="inline-block min-h-[48px] min-w-[48px]">
                   <Button
                     variant="outline"
                     size="lg"
