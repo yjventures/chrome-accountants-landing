@@ -36,7 +36,7 @@
   <link rel="dns-prefetch" href="//www.googletagmanager.com" />
   
   <!-- Preload critical resources -->
-  <link rel="preload" href="/images/sarah-chen.jpg" as="image" type="image/jpeg" />
+  <link rel="preload" href="/images/sarah-chen.avif" as="image" type="image/avif" />
   <link rel="preload" href="/images/paralox-mango-bg.jpg" as="image" type="image/jpeg" />
   
   <!-- Preload critical JavaScript -->
@@ -130,6 +130,15 @@
 </head>
 
 <body>
+  <!-- LCP Image - Hidden but discoverable for immediate loading -->
+  <img 
+    src="/images/sarah-chen.avif" 
+    alt="Sarah Chen, Business Owner" 
+    style="position: absolute; left: -9999px; top: -9999px; width: 1px; height: 1px; opacity: 0;"
+    fetchpriority="high"
+    loading="eager"
+  />
+  
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
