@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
   <url>
     <loc>https://www.chromeaccountants.com.au</loc>
     <lastmod>2025-08-10</lastmod>
@@ -37,12 +39,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/client-login-chrome-accountants</loc>
-    <lastmod>2025-08-10</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
     <loc>https://www.chromeaccountants.com.au/privacy-policy-chrome-accountants</loc>
     <lastmod>2025-08-10</lastmod>
     <changefreq>yearly</changefreq>
@@ -54,12 +50,16 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
+  <!-- Calculators & Tools -->
   <url>
     <loc>https://www.chromeaccountants.com.au/australian-tax-calculator</loc>
     <lastmod>2025-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Guides -->
   <url>
     <loc>https://www.chromeaccountants.com.au/business-startup-checklist</loc>
     <lastmod>2025-08-10</lastmod>
@@ -79,41 +79,55 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/bookkeeping-service-booking</loc>
+    <loc>https://www.chromeaccountants.com.au/crypto-taxes-sydney</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/business-service-booking</loc>
+    <loc>https://www.chromeaccountants.com.au/gst-in-nsw-guide</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/individual-service-booking</loc>
+    <loc>https://www.chromeaccountants.com.au/stamp-duty-land-tax-nsw</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/bookkeeping-services-chrome-accountants</loc>
+    <loc>https://www.chromeaccountants.com.au/payroll-compliance-checklist-2025</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/swapping-crypto-taxable</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/top-tax-agents-merrylands</loc>
     <lastmod>2025-08-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/business-services-chrome-accountants</loc>
+    <loc>https://www.chromeaccountants.com.au/independent-contractor-deductions</loc>
     <lastmod>2025-08-10</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.chromeaccountants.com.au/individual-services-chrome-accountants</loc>
+    <loc>https://www.chromeaccountants.com.au/lodge-tax-return-merrylands</loc>
     <lastmod>2025-08-10</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
+
+  <!-- Blog Resources -->
   <url>
     <loc>https://www.chromeaccountants.com.au/gst-registration-guide-nsw-chrome-accountants</loc>
     <lastmod>2025-08-10</lastmod>
@@ -180,4 +194,133 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/tax-return-preparation-guide-nsw-chrome-accountants</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Bookings -->
+  <url>
+    <loc>https://www.chromeaccountants.com.au/bookkeeping-service-booking</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/business-service-booking</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/individual-service-booking</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Service Hub Pages -->
+  <url>
+    <loc>https://www.chromeaccountants.com.au/bookkeeping-services-chrome-accountants</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/business-services-chrome-accountants</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/individual-services-chrome-accountants</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Service Detail Pages -->
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/bookkeeping/bas-ias-lodgement-services</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/bookkeeping/payroll-superannuation-mgmt</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/bookkeeping/financial-accounting-reports</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/bookkeeping/accounts-payable-receivable</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/business/sole-trader-tax-services</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/business/partnership-tax-services</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/business/company-tax-returns-aus</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/business/trust-tax-return-services</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/business/self-managed-super-funds</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/individual/employment-income-returns</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/individual/investment-property-tax</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/individual/capital-gains-tax-service</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.chromeaccountants.com.au/pages/services/individual/foreign-income-tax-aus</loc>
+    <lastmod>2025-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

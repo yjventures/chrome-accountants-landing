@@ -134,8 +134,6 @@ function App() {
             <Route path="/registration-requirements-nsw-chrome-accountants" element={<RegistrationRequirementsNSW />} />
             <Route path="/first-year-tax-tips-nsw-chrome-accountants" element={<FirstYearTaxTipsNSW />} />
             <Route path="/tax-return-preparation-guide-nsw-chrome-accountants" element={<TaxReturnPreparationGuideNSW />} />
-            <Route path="/startup-financial-planning-nsw-chrome-accountants" element={<StartupFinancialPlanningTemplateNSW />} />
-
 
 
             {/*
