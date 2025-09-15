@@ -129,7 +129,10 @@ const Home = () => {
                     src="/images/sarah-chen.jpg"
                     alt="Sarah Chen, Business Owner"
                     className="w-full h-full object-cover"
+                    width="380"
+                    height="380"
                     fetchPriority="high"
+                    loading="eager"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = '/images/team-meeting.jpg';
                     }}
@@ -252,6 +255,10 @@ const Home = () => {
                   src="/images/chrome-financial-health-system.png"
                   alt="Chrome Financial Health System"
                   className="w-full rounded-xl shadow-2xl"
+                  width="380"
+                  height="254"
+                  loading="eager"
+                  fetchPriority="high"
                 />
               </div>
             </div>
@@ -281,6 +288,9 @@ const Home = () => {
                   src="/images/commbank-partner-logo.png"
                   alt="Commonwealth Bank"
                   className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
+                  width="200"
+                  height="100"
+                  loading="lazy"
                 />
               </a>
               <a
@@ -293,6 +303,9 @@ const Home = () => {
                   src="/images/westpac-partner-logo.png"
                   alt="Westpac Bank"
                   className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[300px] w-auto"
+                  width="200"
+                  height="100"
+                  loading="lazy"
                 />
               </a>
               <a
@@ -305,6 +318,9 @@ const Home = () => {
                   src="/images/st-george-partner-logo.png"
                   alt="St. George Bank"
                   className="h-40 sm:h-44 md:h-48 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
+                  width="200"
+                  height="100"
+                  loading="lazy"
                 />
               </a>
             </div>
