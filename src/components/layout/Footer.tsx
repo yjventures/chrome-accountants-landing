@@ -6,22 +6,22 @@ const Footer = () => {
   return (
     <footer className="bg-ca-blue text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Brand Column */}
-          <div className="col-span-1 md:col-span-1">
-            <div className="mb-4">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-1">
+            <div className="mb-4 flex justify-center lg:justify-start">
               <img
                 src="/images/chrome-accountants-footer-logo.png"
                 alt="Chrome Accountants Footer Logo"
-                className="object-contain"
-                style={{ width: '400px', height: '140px' }}
+                className="object-contain max-w-[300px] sm:max-w-[350px] lg:max-w-[400px] h-auto"
+                style={{ height: '100px' }}
                 loading="lazy"
               />
             </div>
             {/* <p className="text-ca-silver text-sm mb-4">
               Your financial champion and translator. We bring clarity and confidence to the world of accounting.
             </p> */}
-            <div className="flex space-x-4 justify-center">
+            <div className="flex space-x-4 justify-center lg:justify-start">
               <a href="https://www.linkedin.com/in/tarek-alarab-aab7b577/?originalSubdomain=au" 
               aria-label="Follow us on LinkedIn"
               className="text-ca-silver hover:text-ca-mango transition-colors">
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           {/* Services Column */}
-          <div>
+          <div className="text-left">
             <h3 className="font-semibold text-white mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
               <li><HashLink to="/bookkeeping-services-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Bookkeeping Services</HashLink></li>
@@ -51,30 +51,29 @@ const Footer = () => {
           </div>
 
           {/* Company Column */}
-          <div>
+          <div className="text-left">
             <h3 className="font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/why-us-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Why Us</Link></li>
               <li><Link to="/about-us-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">About Us</Link></li>
               <li><Link to="/tax-resources-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Resources</Link></li>
               <li><Link to="/australian-tax-calculator" className="text-ca-silver hover:text-ca-mango transition-colors">Tax Calculator</Link></li>
-              {/* <li><Link to="/client-login-chrome-accountants" className="text-ca-silver hover:text-ca-mango transition-colors">Client Login</Link></li> */}
             </ul>
           </div>
 
           {/* Contact Column */}
-          <div>
+          <div className="text-left">
             <h3 className="font-semibold text-white mb-4">Contact Info</h3>
             <div className="space-y-3 text-sm">
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-start space-x-2">
                 <Phone className="h-4 w-4 text-ca-mango" />
                 <a href="tel:+61401809559" className="text-ca-silver hover:text-ca-mango transition-colors">(+61) 401 809 559</a>
               </div>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center justify-start space-x-2">
                 <Mail className="h-4 w-4 text-ca-mango" />
                 <a href = "mailto:info@chromeaccountants.com.au" className="text-ca-silver transition-colors hover:text-ca-mango transition-colors">info@chromeaccountants.com.au</a>
               </div>
-              <div className="flex items-start space-x-2">
+              <div className="flex items-start justify-start space-x-2">
                 <MapPin className="h-4 w-4 text-ca-mango mt-0.5" />
                 <a href="https://maps.app.goo.gl/mQ9BZUtwpKxwP6176" className="text-ca-silver hover:text-ca-mango transition-colors">
                 Level 1/161 Merrylands Rd<br />

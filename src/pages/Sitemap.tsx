@@ -9,7 +9,7 @@ const pages = [
   { path: "/why-us-chrome-accountants", label: "Why Us" },
   { path: "/tax-resources-chrome-accountants", label: "Resources" },
   { path: "/contact-chrome-accountants", label: "Contact" },
-  { path: "/client-login-chrome-accountants", label: "Client Login" },
+  { path: "/login", label: "Client Login" },
   { path: "/privacy-policy-chrome-accountants", label: "Privacy Policy" },
   { path: "/terms-of-service-chrome-accountants", label: "Terms of Service" },
   { path: "/australian-tax-calculator", label: "Australian Tax Calculator" },

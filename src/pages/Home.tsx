@@ -97,11 +97,11 @@ const Home = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="space-y-4">
-                  <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                     Stop just paying taxes.
                     <span className="block text-ca-mango">Start building your future.</span>
                   </h1>
-                  <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
+                  <p className="text-lg sm:text-xl lg:text-2xl text-ca-silver leading-relaxed">
                     As your financial champion and translator, we deliver our proprietary
                     <strong className="text-ca-mango"> Chrome Financial Health System™</strong> to
                     integrate services, explain everything in plain English, and guarantee
@@ -111,12 +111,12 @@ const Home = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <HashLink to="/individual-service-booking">
-                    <Button size="lg" className="w-full sm:w-auto">
+                    <Button size="lg" className="w-full sm:w-auto text-base sm:text-lg">
                       Book Your Appointment
                     </Button>
                   </HashLink>
                   <HashLink to="/why-us-chrome-accountants">
-                    <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-ca-blue">
+                    <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white hover:text-ca-blue text-base sm:text-lg">
                       Why Us?
                     </Button>
                   </HashLink>
@@ -139,8 +139,8 @@ const Home = () => {
                 <div
                   className="
                     absolute -bottom-6 left-0 sm:-left-2 md:-left-3 lg:-left-4 xl:-left-6
-                    bg-white rounded-lg shadow-xl p-4
-                    max-w-[85%] sm:max-w-xs
+                    bg-white rounded-lg shadow-xl p-3 sm:p-4
+                    max-w-[90%] sm:max-w-xs
                   "
                 >
                   <div className="flex items-center space-x-1 mb-2">
@@ -148,11 +148,11 @@ const Home = () => {
                       <Star key={i} className="h-4 w-4 text-ca-mango fill-current" />
                     ))}
                   </div>
-                  <p className="text-ca-text text-sm">
+                  <p className="text-ca-text text-xs sm:text-sm">
                     "Chrome Accountants transformed how I manage my business finances.
                     Their system gave me clarity I never had before."
                   </p>
-                  <p className="text-ca-blue font-semibold text-sm mt-2">
+                  <p className="text-ca-blue font-semibold text-xs sm:text-sm mt-2">
                     - Sarah Chen, Business Owner
                   </p>
                 </div>
@@ -167,11 +167,11 @@ const Home = () => {
           style={{ backgroundImage: "url('/images/paralox-mango-bg.jpg')" }}
         >
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               {trustIndicators.map((item, index) => (
-                <div key={index} className="space-y-2">
-                  <div className="text-3xl lg:text-4xl font-bold text-white">{item.metric}</div>
-                  <div className="text-white font-medium">{item.label}</div>
+                <div key={index} className="space-y-1 md:space-y-2">
+                  <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">{item.metric}</div>
+                  <div className="text-white font-medium text-sm sm:text-base">{item.label}</div>
                 </div>
               ))}
             </div>
@@ -181,24 +181,24 @@ const Home = () => {
         {/* Value Propositions by Persona */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
+            <div className="text-center mb-12 md:mb-16">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
                 Your Financial Champion for Every Journey
               </h2>
-              <p className="text-xl text-ca-text max-w-3xl mx-auto">
+              <p className="text-lg sm:text-xl text-ca-text max-w-3xl mx-auto">
                 Whether you're growing a business, managing personal taxes, or starting your entrepreneurial journey,
                 we have the expertise to guide you to success.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {valueProps.map((prop, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                <div key={index} className="bg-white rounded-xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow">
                   <div className="flex items-center mb-4">
                     {prop.icon}
-                    <h3 className="text-xl font-bold text-ca-blue ml-3">{prop.title}</h3>
+                    <h3 className="text-lg md:text-xl font-bold text-ca-blue ml-3">{prop.title}</h3>
                   </div>
-                  <p className="text-ca-text leading-relaxed mb-6">{prop.description}</p>
+                  <p className="text-ca-text leading-relaxed mb-6 text-sm md:text-base">{prop.description}</p>
                   <HashLink
                     to="/contact-chrome-accountants"
                     className="text-ca-mango font-semibold hover:text-ca-blue transition-colors inline-flex items-center"
@@ -214,12 +214,12 @@ const Home = () => {
        {/* Chrome Financial Health System */}
         <section className="py-20 bg-ca-blue text-white">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-6">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">
                   The Chrome Financial Health System™
                 </h2>
-                <p className="text-xl text-ca-silver mb-8">
+                <p className="text-lg sm:text-xl text-ca-silver mb-8">
                   Our proprietary system transforms complex financial obligations into
                   clear opportunities for growth. Unlike traditional accountants who work
                   in silos, our integrated approach ensures every aspect of your financial
@@ -233,8 +233,8 @@ const Home = () => {
                         {feature.icon}
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-                        <p className="text-ca-silver">{feature.description}</p>
+                        <h3 className="text-base md:text-lg font-semibold mb-2">{feature.title}</h3>
+                        <p className="text-ca-silver text-sm md:text-base">{feature.description}</p>
                       </div>
                     </div>
                   ))}
@@ -255,16 +255,16 @@ const Home = () => {
         {/* Our Partners Grid */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-1">
-              <h2 className="text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
+            <div className="text-center mb-8 md:mb-12">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
                 Our Lending Partners
               </h2>
-              <p className="text-xl text-ca-text max-w-3xl mx-auto">
+              <p className="text-lg sm:text-xl text-ca-text max-w-3xl mx-auto">
                 Our trusted partners in financial excellence,
                 ensuring seamless tax solutions and strategic financial planning.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row justify-center items-center mt-20 sm:flex-wrap sm:gap-16">
+            <div className="flex flex-col sm:flex-row justify-center items-center mt-12 md:mt-20 sm:flex-wrap sm:gap-8 md:gap-16">
               <a
                 href="https://www.commonwealthbank.com.au/"
                 target="_blank"
@@ -274,7 +274,7 @@ const Home = () => {
                 <img
                   src="/images/commbank-partner-logo.png"
                   alt="Commonwealth Bank"
-                  className="h-60 sm:h-48 object-contain max-w-[280px] w-auto"
+                  className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
                 />
               </a>
               <a
@@ -286,8 +286,7 @@ const Home = () => {
                 <img
                   src="/images/westpac-partner-logo.png"
                   alt="Westpac Bank"
-                  className="h-60 sm:h-48 object-contain max-w-[300px] w-auto"
-
+                  className="h-40 sm:h-48 md:h-52 lg:h-60 object-contain max-w-[200px] sm:max-w-[300px] w-auto"
                 />
               </a>
               <a
@@ -299,7 +298,7 @@ const Home = () => {
                 <img
                   src="/images/st-george-partner-logo.png"
                   alt="St. George Bank"
-                  className="h-60 sm:h-44 object-contain max-w-[280px] w-auto"
+                  className="h-40 sm:h-44 md:h-48 lg:h-60 object-contain max-w-[200px] sm:max-w-[280px] w-auto"
                 />
               </a>
             </div>
@@ -310,25 +309,25 @@ const Home = () => {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
                 Client Testimonials
               </h2>
-              <p className="text-xl text-ca-text max-w-3xl mx-auto">
+              <p className="text-lg sm:text-xl text-ca-text max-w-3xl mx-auto">
                 See what over a 100+ clients say about working with Chrome Accountants.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-8">
               {testimonialsData.slice(0, 3).map((testimonial) => (
                 <div
                   key={testimonial.id}
-                  className="bg-white rounded-xl shadow-lg p-6 flex flex-col h-full hover:shadow-xl transition-all"
+                  className="bg-white rounded-xl shadow-lg p-4 md:p-6 flex flex-col h-full hover:shadow-xl transition-all"
                 >
                   <div className="flex items-center space-x-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-ca-mango fill-current" />
                     ))}
                   </div>
-                  <p className="text-ca-text leading-relaxed mb-6 italic">
+                  <p className="text-ca-text leading-relaxed mb-6 italic text-sm md:text-base">
                     "{testimonial.content}"
                   </p>
                   <div className="flex items-center space-x-3 mt-auto">
@@ -338,10 +337,10 @@ const Home = () => {
                       </span>
                     </div>
                     <div>
-                      <p className="font-semibold text-ca-blue">{testimonial.name}</p>
-                      <p className="text-sm text-ca-text">{testimonial.role}</p>
+                      <p className="font-semibold text-ca-blue text-sm md:text-base">{testimonial.name}</p>
+                      <p className="text-xs md:text-sm text-ca-text">{testimonial.role}</p>
                       {testimonial.company !== 'Individual Tax Client' && (
-                        <p className="text-sm text-ca-text">{testimonial.company}</p>
+                        <p className="text-xs md:text-sm text-ca-text">{testimonial.company}</p>
                       )}
                     </div>
                   </div>
@@ -366,10 +365,10 @@ const Home = () => {
           <div className="absolute inset-0 pointer-events-none" />
           <div className="container relative mx-auto px-4 text-center">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6">
                 Ready to Take Control of Your Financial Future?
               </h2>
-              <p className="text-xl text-white mb-8">
+              <p className="text-lg sm:text-xl text-white mb-8">
                 Book an appointment and discover how our Chrome Financial Health System™
                 can transform your financial management and maximize your outcomes.
               </p>

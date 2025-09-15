@@ -8,6 +8,8 @@ import WhyUs from './pages/WhyUs';
 import Resources from './pages/Resources';
 import Contact from './pages/Contact';
 import ClientLogin from './pages/ClientLogin';
+import ForgotPassword from './pages/ForgotPassword';
+import ResetPassword from './pages/ResetPassword';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import TaxCalculator from './pages/TaxCalculator';
@@ -67,6 +69,11 @@ import CapitalGainsTaxService from './pages/services/individual/CapitalGainsTaxS
 import ForeignIncomeTaxAus from './pages/services/individual/ForeignIncomeTaxAus';
 import LendingServices from './pages/services/LendingServices';
 
+// Dashboard pages
+import AdminDashboard from './pages/admin/AdminDashboard';
+import ClientDashboard from './pages/client/ClientDashboard';
+import ClientContactForm from './pages/client/ClientContactForm';
+import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
@@ -84,7 +91,6 @@ function App() {
             <Route path="/why-us-chrome-accountants" element={<WhyUs />} />
             <Route path="/tax-resources-chrome-accountants" element={<Resources />} />
             <Route path="/contact-chrome-accountants" element={<Contact />} />
-            <Route path="/client-login-chrome-accountants" element={<ClientLogin />} />
             <Route path="/privacy-policy-chrome-accountants" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service-chrome-accountants" element={<TermsOfService />} />
             <Route path="/australian-tax-calculator" element={<TaxCalculator />} />
@@ -162,6 +168,45 @@ function App() {
             <Route path="/accounts-payable-receivable" element={<AccountsPayableReceivable />} />
             <Route path="/payroll-superannuation-mgmt" element={<PayrollSuperannuationMgmt />} />
             <Route path="/financial-accounting-reports" element={<FinancialAccountingReports />} />
+            {/* Dashboards */}
+            {/* <Route path="/admin-dashboard" element={<AdminDashboard />} /> */}
+            {/* <Route path="/client/dashboard" element={<ClientDashboard />} /> */}
+            {/* <Route path="/protected-route" element={<ProtectedRoute />} /> */}
+
+            <Route path="/login" element={<ClientLogin />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
+            
+            {/* Protected admin route */}
+            <Route
+              path="/admin-dashboard"
+              element={
+                <ProtectedRoute requiredRole="admin">
+                  <AdminDashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Protected client route */}
+            <Route
+              path="/client-dashboard"
+              element={
+                <ProtectedRoute requiredRole="client">
+                  <ClientDashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Protected client contact form route */}
+            <Route
+              path="/client/contact-form"
+              element={
+                <ProtectedRoute requiredRole="client">
+                  <ClientContactForm />
+                </ProtectedRoute>
+              }
+            />
+
           </Routes>
         </main>
         <Footer />

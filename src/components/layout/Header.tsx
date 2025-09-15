@@ -37,13 +37,13 @@ const Header = () => {
             <img
               src="/images/chrome-accountants-header-logo.png"
               alt="Chrome Accountants Logo"
-              className="h-28 w-auto object-contain"
+              className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto object-contain"
               loading="lazy"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navigation.map((item, idx) => {
               const hasChildren = !!item.children?.length;
 
@@ -110,17 +110,32 @@ const Header = () => {
             })}
           </nav>
 
+          {/* Tablet Navigation */}
+          <nav className="hidden md:flex lg:hidden items-center gap-4">
+            {navigation.slice(0, 3).map((item, idx) => (
+              <Link
+                key={item.name}
+                to={item.href!}
+                className={`text-sm font-medium transition-colors hover:text-ca-mango ${
+                  isActive(item.href) ? 'text-ca-mango' : 'text-ca-text'
+                }`}
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+
           {/* CTA and Client Login */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
             <Link
-              to="/client-login-chrome-accountants"
+              to="/login"
               className="text-sm font-medium text-ca-text hover:text-ca-blue transition-colors"
             >
               Client Login
             </Link>
             <Link
               to="/contact-chrome-accountants"
-              className="bg-ca-mango text-ca-blue px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all hover:shadow-md"
+              className="bg-ca-mango text-ca-blue px-4 lg:px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all hover:shadow-md text-sm lg:text-base"
             >
               Book a Session
             </Link>
@@ -128,7 +143,7 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden"
+            className="lg:hidden"
             onClick={() => {
               setIsOpen(!isOpen);
               setOpenMobileIdx(null);
@@ -147,7 +162,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div id="mobile-nav" className="md:hidden py-4 border-t">
+          <div id="mobile-nav" className="lg:hidden py-4 border-t">
             <nav className="flex flex-col">
               {navigation.map((item, idx) => {
                 const hasChildren = !!item.children?.length;
@@ -212,13 +227,13 @@ const Header = () => {
                 );
               })}
 
-              {/* <Link
-                to="/client-login"
+              <Link
+                to="/login"
                 className="px-2 py-3 text-sm font-medium text-ca-text hover:text-ca-blue transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Client Login
-              </Link> */}
+              </Link>
               <Link
                 to="/contact-chrome-accountants"
 

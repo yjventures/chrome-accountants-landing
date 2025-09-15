@@ -1,12 +1,14 @@
 {
+  "framework": "vite",
+  "buildCommand": "vite build",
   "redirects": [
-    { "source": "/contact-us",      "destination": "/contact-chrome-accountants", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact-chrome-accountants", "permanent": true },
     {
       "source": "/client-contact-form",
       "destination": "/data/CA-Client-Contact-Form.pdf",
       "permanent": true
     },
-      {
+    {
       "source": "/contact-us/",
       "destination": "/contact-chrome-accountants",
       "permanent": true

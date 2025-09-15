@@ -75,10 +75,10 @@ const About = () => {
       <section className="bg-gradient-to-br from-ca-blue to-ca-dark text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
               {META.h1}
             </h1>
-            <p className="text-xl lg:text-2xl text-ca-silver leading-relaxed">
+            <p className="text-lg sm:text-xl lg:text-2xl text-ca-silver leading-relaxed">
               {META.firstSentence}
             </p>
           </div>
@@ -88,12 +88,12 @@ const About = () => {
       {/* Mission & Story */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold text-ca-blue mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ca-blue mb-6">
                 Our Mission
               </h2>
-              <p className="text-lg text-ca-text leading-relaxed mb-6">
+              <p className="text-base sm:text-lg text-ca-text leading-relaxed mb-6">
                 To bring clarity and confidence to the world of accounting. We are driven 
                 by the success and peace of mind of the individuals and businesses we 
                 partner with. Our goal is to transform complex financial obligations into 
