@@ -129,6 +129,7 @@ const Home = () => {
                     src="/images/sarah-chen.jpg"
                     alt="Sarah Chen, Business Owner"
                     className="w-full h-full object-cover"
+                    fetchPriority="high"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = '/images/team-meeting.jpg';
                     }}
