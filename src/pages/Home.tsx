@@ -126,7 +126,7 @@ const Home = () => {
               <div className="relative">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                   <img
-                    src="/images/sarah-chen.jpg"
+                    src="/images/sarah-chen.avif"
                     alt="Sarah Chen, Business Owner"
                     className="w-full h-full object-cover"
                     fetchPriority="high"
@@ -249,7 +249,7 @@ const Home = () => {
 
               <div className="relative">
                 <img
-                  src="/images/chrome-financial-health-system.png"
+                  src="/images/chrome-financial-health-system.avif"
                   alt="Chrome Financial Health System"
                   className="w-full rounded-xl shadow-2xl"
                 />

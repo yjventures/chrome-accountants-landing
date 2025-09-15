@@ -35,7 +35,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/images/chrome-accountants-header-logo.png"
+              src="/images/chrome-accountants-header-logo.avif"
               alt="Chrome Accountants Logo"
               className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto object-contain"
               loading="lazy"
