@@ -30,9 +30,18 @@
   <link rel="icon" type="image/png" href="/images/favicon.svg" />
   <title>Chrome Accountants | Your Financial Champion</title>
   
+  <!-- Preconnect for faster connections -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+  
   <!-- Preload critical resources -->
   <link rel="preload" href="/images/sarah-chen.jpg" as="image" type="image/jpeg" />
   <link rel="preload" href="/images/paralox-mango-bg.jpg" as="image" type="image/jpeg" />
+  
+  <!-- Preload critical JavaScript -->
+  <link rel="modulepreload" href="/src/main.tsx" />
+  <link rel="modulepreload" href="/src/App.tsx" />
   
   <!-- Critical CSS for above-the-fold content -->
   <style>
@@ -124,5 +133,6 @@
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
+
 
 </html>
