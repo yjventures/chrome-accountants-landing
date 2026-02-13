@@ -259,7 +259,7 @@ const Home = () => {
         </section>
 
         {/* Our Partners Grid */}
-        <section className="py-20">
+        {/* <section className="py-20">
           <div className="container mx-auto px-4">
             <div className="text-center mb-8 md:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-ca-blue mb-4">
@@ -309,7 +309,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Homepage Testimonials Preview */}
         <section className="py-20 bg-gray-50">
