@@ -85,6 +85,9 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-ca-silver/20 mt-8 pt-8 text-center">
+          <p className="text-ca-silver text-sm mb-4">
+            Liability limited by a scheme approved under Professional Standards Legislation.
+          </p>
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-ca-silver text-sm">
               Designed & Developed by 
